@@ -1016,6 +1016,84 @@ Show #
 
 
 
+#------------------------------#
+#   Georgia's Fancy Chaos Machine
+#------------------------------#
+
+# 2x2 slots
+
+Show # Helmets - chaos recipe
+    SetTextColor 231 13 195
+    SetBackgroundColor 0 0 0 255
+    SetBorderColor 250 5 160
+    SetFontSize 18
+    ItemLevel >= 60
+    Rarity Rare
+    Class "Helmets"
+    ItemLevel <= 74
+Show # Boots - chaos recipe
+    SetTextColor 0 250 62
+    SetBackgroundColor 0 0 0 255
+    SetBorderColor 0 250 62
+    SetFontSize 18
+    ItemLevel >= 60
+    Rarity Rare
+    ItemLevel <= 74
+    Class "Boots"
+Show # Gloves - chaos recipe
+    SetTextColor 255 153 10
+    SetBackgroundColor 0 0 0 255
+    SetBorderColor 255 153 10
+    SetFontSize 18
+    ItemLevel >= 60
+    Rarity Rare
+    ItemLevel <= 74
+    Class "Gloves"
+
+#armour
+Show # armour - chaos recipe
+    SetTextColor  0 246 250
+    SetBackgroundColor 0 0 0 
+    SetBorderColor 0 246 250
+    SetFontSize 18
+    ItemLevel >= 60
+    Rarity Rare
+    ItemLevel <= 74
+    Class "Body Armours"
+#rings/belts
+Show # rings belts ammys
+    SetBorderColor 255 255 255 255
+    SetFontSize 45
+    ItemLevel >= 60
+    Rarity Rare
+    Class "Rings" "Amulets" "Belts"
+    SetTextColor 0 0 0 255
+    SetBackgroundColor 170 225 70 255
+    ItemLevel <= 74
+    MinimapIcon 1 Yellow Kite
+    PlayEffect Yellow 
+Show #Wands
+    SetBorderColor 0 0 220
+    SetBackgroundColor 0 200 200
+    SetTextColor 0 0 220
+    SetFontSize 18
+    ItemLevel >= 60
+    Rarity Rare
+    ItemLevel <= 74
+    Class "Wands"
+    Height = 3
+    Width = 1
+Show # weapons 1x3 - chaos recipe
+    SetTextColor  250 0 0
+    SetBackgroundColor 0 0 0 
+    SetBorderColor 250 0 0
+    SetFontSize 18
+    ItemLevel >= 60
+    Rarity Rare
+    ItemLevel <= 74
+    Class "Daggers" "Sceptres" "One Hand Swords" "One Hand Maces"
+    Height = 3
+    Width = 1
 
 
 #---------------------------#
