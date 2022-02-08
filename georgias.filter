@@ -1564,13 +1564,13 @@ Show # Chromatic Orb Recipe For Maps
 
 # The Rare gear above will Show, but as we don't have much currency available at the beginning of a fresh league-start, having the option of any Rarity of linked items is nice.
 
-Show
-    AreaLevel < 68 # Rares only once mapping starts.
-    LinkedSockets = 4
-Show
-    Class "Claws" "Daggers" "One Hand" "Rune Daggers" "Sceptres" "Shields" "Wands"
-    AreaLevel < 68 # Rares only once mapping starts.
-    LinkedSockets = 3
+#Show
+#    AreaLevel < 68 # Rares only once mapping starts.
+#    LinkedSockets = 4
+#Show
+#    Class "Claws" "Daggers" "One Hand" "Rune Daggers" "Sceptres" "Shields" "Wands"
+#    AreaLevel < 68 # Rares only once mapping starts.
+#    LinkedSockets = 3
 Show
     Class Amulets Rings Belts
     AreaLevel < 68 # All rare accessories will show until the end of the campaign.
