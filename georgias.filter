@@ -1033,6 +1033,13 @@ Show #
     SetTextColor 250 250 250
     SetFontSize 40
 
+Show
+    Class "Quivers"
+    Rarity Rare
+    SetBorderColor 250 250 250
+    SetBackgroundColor 0 0 150
+    SetTextColor 250 250 250
+    SetFontSize 40
 
 
 #------------------------------#
