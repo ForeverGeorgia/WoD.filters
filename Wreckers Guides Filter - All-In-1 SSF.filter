@@ -22,7 +22,7 @@
 
 # All of my filters only filter gear. So you will never miss any non-equippable item that drops.
 
-# Both filters are progressive. That means that instead of choosing when you want your filter to get more strict, the filter chooses for you at predermined points in the game. So there are no alternate tiers to select with this filter. It's a "One-stop-shop".
+# Both filters are progressive. That means that instead of you choosing when you want your filter to get more strict, the filter chooses for you at predermined points in the game. So there are no alternate tiers to select with this filter. It's a "One-stop-shop".
 
 
 
@@ -32,10 +32,11 @@
 
 #   End-Game:
         # I want the end-game to show as little as possible without actually missing anything. (Don't we all.)
-        # ***To do this, I've decided to have all items that will eventually be hidden, show until (and including) T14s. (Obviously many items will start being hidden during the campaign.) So T15s, and especially T16s, will be really tidy.***
+            # Most items have natural replacements. 
+            # The end of campaign is To do this, I've decided to have all items that will eventually be hidden, show until (and including) T14s. (Obviously many items will start being hidden during the campaign.) So T15s, and especially T16s, will be really tidy.***
         # Mapping will always bounce back and forth from T14s and above. So I have the filter setup to allow players to still get some of the drops they want without needing to backtrack to much lower maps. They'll still be able to do relevant map tiers to get the drops they want. So if you need some extra scrolls or scraps, change your mind on your utility flasks, or need an item's basetype more than its item level, you'll get what you need in T14s and then won't have to worry about them showing when you're back in T15+. It's not like we want to stay in T14s...but we have to do them on occasion anyway. I figured it was a good threshold.
 #   Currency:
-        # I'm the type of player that likes to have all currency show. So it does, but it shouldn't be in the way. The visuals so only emphasize the items worth picking up, while the less important currency is less obvious.
+        # I'm the type of player that likes to have all currency show. So it does, but it shouldn't be in the way. The visuals so only emphasize the items worth picking up, while the less important currency is less obvious. (Stacks values are required for common currencies.)
 #   Gear:
         # Outside of levelling exceptions or fancy items (Atlas Based drops, influenced items, etc.), ONLY THE BEST RARE ITEMS WILL SHOW FOR THE AREA LEVEL YOU'RE IN (based on a few factors).
             # Examples:
@@ -5271,7 +5272,7 @@ Show
     SetFontSize 30 
     
     
-    
+
 #-----------------------------#
 #   TWO HAND SWORDS SECTION
 #-----------------------------#
@@ -9461,10 +9462,10 @@ Show
     SetBorderColor 0 0 0
     SetBackgroundColor 0 0 0
     SetTextColor 250 225 0
-    SetFontSize 30
-    
-    
-    
+    SetFontSize 30    
+
+
+
 # ARMOUR/ENERGY SHIELD GLOVES
 # Top Items
 Show # T1 ItemLevel Rare
@@ -9562,8 +9563,8 @@ Show
     SetBackgroundColor 0 0 0
     SetTextColor 250 225 0
     SetFontSize 30
-    
 
+    
 
 # ENERGY SHIELD/EVASION GLOVES
 # Top Items
