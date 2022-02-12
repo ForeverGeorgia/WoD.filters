@@ -1109,7 +1109,7 @@ Show # rings belts ammys
     SetBackgroundColor 170 225 70 255
     ItemLevel <= 74
     MinimapIcon 1 Yellow Kite
-    PlayEffect Yellow 
+    PlayEffect Yellow
 Show #Wands
     SetBorderColor 0 0 220
     SetBackgroundColor 0 200 200
@@ -1133,6 +1133,15 @@ Show # weapons 1x3 - chaos recipe
     Height = 3
     Width = 1
 
+Show # weapons 2H - chaos recipe
+    SetTextColor  250 0 0
+    SetBackgroundColor 0 0 0 
+    SetBorderColor 250 0 0
+    SetFontSize 22
+    ItemLevel >= 60
+    Rarity Rare
+    ItemLevel <= 74
+    Class "Staves" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves" "Bows"
 
 #---------------------------#
 #   FANCY GEAR EXCEPTIONS
