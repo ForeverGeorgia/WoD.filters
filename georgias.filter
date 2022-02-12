@@ -856,7 +856,7 @@ Show
 # gems Blueprint: Repository / Tunnels
 Show
 	Class  "Blueprint"
-    BaseType "Repository" "Tunnels" "Undercity" "Smuggler's Den"
+    BaseType "Repository" "Tunnels" "Underbelly" "Smuggler's Den"
     SetBorderColor 150 0 150
     SetBackgroundColor 250 250 250
     SetTextColor 150 0 150
