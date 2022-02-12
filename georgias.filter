@@ -1069,6 +1069,7 @@ Show # Helmets - chaos recipe
     Rarity Rare
     Class "Helmets"
     ItemLevel <= 74
+    Identified False
 Show # Boots - chaos recipe
     SetTextColor 0 250 62
     SetBackgroundColor 0 0 0 255
@@ -1078,6 +1079,7 @@ Show # Boots - chaos recipe
     Rarity Rare
     ItemLevel <= 74
     Class "Boots"
+    Identified False
 Show # Gloves - chaos recipe
     SetTextColor 255 153 10
     SetBackgroundColor 0 0 0 255
@@ -1087,6 +1089,7 @@ Show # Gloves - chaos recipe
     Rarity Rare
     ItemLevel <= 74
     Class "Gloves"
+    Identified False
 
 #armour
 Show # armour - chaos recipe
@@ -1098,6 +1101,7 @@ Show # armour - chaos recipe
     Rarity Rare
     ItemLevel <= 74
     Class "Body Armours"
+    Identified False
 #rings/belts
 Show # rings belts ammys
     SetBorderColor 255 255 255 255
@@ -1110,6 +1114,7 @@ Show # rings belts ammys
     ItemLevel <= 74
     MinimapIcon 1 Yellow Kite
     PlayEffect Yellow
+    Identified False 
 Show #Wands
     SetBorderColor 0 0 220
     SetBackgroundColor 0 200 200
@@ -1121,6 +1126,7 @@ Show #Wands
     Class "Wands"
     Height = 3
     Width = 1
+    Identified False
 Show # weapons 1x3 - chaos recipe
     SetTextColor  250 0 0
     SetBackgroundColor 0 0 0 
@@ -1132,6 +1138,7 @@ Show # weapons 1x3 - chaos recipe
     Class "Daggers" "Sceptres" "One Hand Swords" "One Hand Maces"
     Height = 3
     Width = 1
+    Identified False
 
 Show # weapons 2H - chaos recipe
     SetTextColor  250 0 0
@@ -1142,6 +1149,8 @@ Show # weapons 2H - chaos recipe
     Rarity Rare
     ItemLevel <= 74
     Class "Staves" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves" "Bows"
+    Identified False
+
 
 #---------------------------#
 #   FANCY GEAR EXCEPTIONS
