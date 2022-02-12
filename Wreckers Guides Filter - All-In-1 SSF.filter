@@ -308,6 +308,56 @@ Show
     PlayAlertSound 12 300
     MinimapIcon 0 Orange UpsideDownHouse
     PlayEffect Orange
+Show # Needs 4 (or Wealthy)
+    Class "Archnemesis Mod"
+    ArchnemesisMod "Opulent" "Innocence-touched" "Kitava-touched"
+    SetBorderColor 250 125 0
+    SetBackgroundColor 250 250 250
+    SetTextColor 250 125 0
+    SetFontSize 45
+    PlayAlertSound 1 300
+    MinimapIcon 0 White UpsideDownHouse
+    PlayEffect Orange  
+Show # Needs 3
+    Class "Archnemesis Mod"
+    ArchnemesisMod "Empowering Minions" "Trickster" "Temporal Bubble" "Treant Horde" "Soul Eater" "Evocationist" "Invulnerable" "Crystal-skinned" "Empowered Elements" "Effigy" "Lunaris-touched" "Solaris-touched" "Arakaali-touched" "Brine King-touched" "Tukohama-touched" "Abberath-touched" "Shakari-touched"
+    SetBorderColor 0 0 0
+    SetBackgroundColor 250 125 0
+    SetTextColor 0 0 0
+    SetFontSize 45
+    PlayAlertSound 12 300
+    MinimapIcon 0 Orange UpsideDownHouse
+    PlayEffect Orange  
+Show # Needs 2
+    Class "Archnemesis Mod"
+    ArchnemesisMod "Heralding Minions" "Assassin" "Necromancer" "Rejuvenating" "Executioner" "Hexer" "Drought Bringer" "Entangler" "Frost Strider" "Ice Prison" "Flame Strider" "Corpse Detonator" "Magma Barrier" "Mirror Image" "Storm Strider" "Mana Siphoner" "Corrupter" 
+    SetBorderColor 250 125 0
+    SetBackgroundColor 0 0 0
+    SetTextColor 250 125 0
+    SetFontSize 40
+    PlayAlertSound 12 200
+    MinimapIcon 0 Orange UpsideDownHouse
+    PlayEffect Orange  
+Show # Base
+    Class "Archnemesis Mod"
+    ArchnemesisMod "Toxic" "Chaosweaver" "Frostweaver" "Permafrost" "Hasted" "Deadeye" "Bombardier" "Flameweaver" "Incendiary" "Arcane Buffer" "Echoist" "Stormweaver" "Dynamo" "Bonebreaker" "Bloodletter" "Steel-infused" "Gargantuan" "Berserker" "Sentinel" "Juggernaut" "Vampiric" "Overcharged" "Soul Conduit" "Malediction" "Consecrator" "Frenzied"
+    SetBorderColor 0 0 0
+    SetBackgroundColor 0 0 0
+    SetTextColor 250 125 0
+    SetFontSize 35
+    PlayAlertSound 12 100
+    MinimapIcon 1 Orange UpsideDownHouse
+    PlayEffect Orange  
+Show # Catch-All
+    Class "Archnemesis Mod"
+    SetBorderColor 250 250 250
+    SetBackgroundColor 0 0 0
+    SetTextColor 250 125 0
+    SetFontSize 45
+    PlayAlertSound 12 300
+    MinimapIcon 0 Orange UpsideDownHouse
+    PlayEffect Orange   
+
 
 
 # QUEST ITEMS
