@@ -795,7 +795,7 @@ Show # Legion # Timeless Emblems
     MinimapIcon 0 Purple Circle
     PlayEffect Purple
 Show # Timeless Splinters
-    BaseType "Metamorph Sample" "Simulacrum Splinter" "Timeless Maraketh Splinter" "Timeless Karui Splinter" "Timeless Templar Splinter" "Timeless Eternal Empire Splinter" "Timeless Vaal Splinter"
+    BaseType  "Simulacrum Splinter" "Timeless Maraketh Splinter" "Timeless Karui Splinter" "Timeless Templar Splinter" "Timeless Eternal Empire Splinter" "Timeless Vaal Splinter"
     SetBorderColor 150 0 150
     SetBackgroundColor 0 0 0
     SetTextColor 150 0 150
@@ -813,6 +813,16 @@ Show
     PlayAlertSound 1 300
     MinimapIcon 0 White Circle
     PlayEffect White
+    # Metamorph - apparently.... things break without this in here. Stupid Classes over basetypes. This should be a map fragment
+Show
+    Class "Metamorph Sample"
+    SetBorderColor 0 0 0
+    SetBackgroundColor 150 0 150
+    SetTextColor 0 0 0
+    SetFontSize 40
+    PlayAlertSound 12 300
+    MinimapIcon 0 Purple Circle
+    PlayEffect Purple
 # Heist
 # currency/trinkets Blueprint: Smuggler's Den / underbelly
 # gems Blueprint: Repository / Tunnels
