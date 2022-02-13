@@ -786,7 +786,7 @@ Show
 # Frag Tab
 
 Show # Legion # Timeless Emblems
-    BaseType "Timeless Karui Emblem" "Timeless Maraketh Emblem" "Timeless Templar Emblem" "Timeless Eternal Emblem" "Timeless Vaal Emblem"
+    BaseType "Delirium Orb" "Timeless Karui Emblem" "Timeless Maraketh Emblem" "Timeless Templar Emblem" "Timeless Eternal Emblem" "Timeless Vaal Emblem"
     SetBorderColor 150 0 150
     SetBackgroundColor 250 250 250
     SetTextColor 150 0 150
@@ -795,7 +795,7 @@ Show # Legion # Timeless Emblems
     MinimapIcon 0 Purple Circle
     PlayEffect Purple
 Show # Timeless Splinters
-    BaseType "Timeless Maraketh Splinter"
+    BaseType "Metamorph Sample" "Simulacrum Splinter" "Timeless Maraketh Splinter" "Timeless Karui Splinter" "Timeless Templar Splinter" "Timeless Eternal Empire Splinter" "Timeless Vaal Splinter"
     SetBorderColor 150 0 150
     SetBackgroundColor 0 0 0
     SetTextColor 150 0 150
@@ -803,16 +803,6 @@ Show # Timeless Splinters
     PlayAlertSound 12 200
     MinimapIcon 1 Purple Circle
     PlayEffect Purple
-Show # Timeless Splinters
-    BaseType "Timeless Karui Splinter" "Timeless Templar Splinter" "Timeless Eternal Empire Splinter" "Timeless Vaal Splinter"
-    SetBorderColor 0 0 0
-    SetBackgroundColor 0 0 0
-    SetTextColor 150 0 150
-    SetFontSize 30
-    PlayAlertSound 12 200
-    MinimapIcon 2 Purple Circle
-    PlayEffect Purple
-# Delirium
 Show
     Class "Map Fragments"
     BaseType "Simulacrum"
@@ -823,34 +813,6 @@ Show
     PlayAlertSound 1 300
     MinimapIcon 0 White Circle
     PlayEffect White
-Show
-    BaseType "Delirium Orb"
-    SetBorderColor 0 0 0
-    SetBackgroundColor 150 0 150
-    SetTextColor 0 0 0
-    SetFontSize 40
-    PlayAlertSound 12 300
-    MinimapIcon 0 Purple Circle
-    PlayEffect Purple
-Show
-    BaseType "Simulacrum Splinter"
-    SetBorderColor 150 0 150
-    SetBackgroundColor 0 0 0
-    SetTextColor 150 0 150
-    SetFontSize 35
-    PlayAlertSound 12 300
-    MinimapIcon 2 Purple Circle
-    PlayEffect Purple
-# Metamorph
-Show
-    Class "Metamorph Sample"
-    SetBorderColor 0 0 0
-    SetBackgroundColor 150 0 150
-    SetTextColor 0 0 0
-    SetFontSize 40
-    PlayAlertSound 12 300
-    MinimapIcon 0 Purple Circle
-    PlayEffect Purple
 # Heist
 # currency/trinkets Blueprint: Smuggler's Den / underbelly
 # gems Blueprint: Repository / Tunnels
