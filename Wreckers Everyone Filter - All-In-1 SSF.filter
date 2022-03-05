@@ -1864,6 +1864,93 @@ Show
     
     
     
+# Eldritch Horror Implicits Section
+Show 
+    HasSearingExarchImplicit >= 1
+    Class Amulets Belts "Body Armours" Boots Bows Claws Daggers Helmets "One Hand Axes" "One Hand Maces" "One Hand Swords" Quivers "Rune Daggers" Sceptres Shields Staves "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" Wands Warstaves
+    ItemLevel >= 86
+    SetBorderColor 250 225 0
+    SetBackgroundColor 250 250 250
+    SetTextColor 0 0 0
+    SetFontSize 45
+    PlayAlertSound 12 300
+    MinimapIcon 0 Yellow Star
+    PlayEffect Yellow
+Show 
+    HasEaterOfWorldsImplicit >= 1
+    Class Amulets Belts "Body Armours" Boots Bows Claws Daggers Helmets "One Hand Axes" "One Hand Maces" "One Hand Swords" Quivers "Rune Daggers" Sceptres Shields Staves "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" Wands Warstaves
+    ItemLevel >= 86
+    SetBorderColor 250 225 0
+    SetBackgroundColor 250 250 250
+    SetTextColor 0 0 0
+    SetFontSize 45
+    PlayAlertSound 12 300
+    MinimapIcon 0 Yellow Star
+    PlayEffect Yellow
+Show 
+    HasSearingExarchImplicit >= 1
+    Class Gloves Rings
+    ItemLevel >= 85
+    SetBorderColor 250 225 0
+    SetBackgroundColor 250 250 250
+    SetTextColor 0 0 0
+    SetFontSize 45
+    PlayAlertSound 12 300
+    MinimapIcon 0 Yellow Star
+    PlayEffect Yellow
+Show 
+    HasEaterOfWorldsImplicit >= 1
+    Class Gloves Rings
+    ItemLevel >= 85
+    SetBorderColor 250 225 0
+    SetBackgroundColor 250 250 250
+    SetTextColor 0 0 0
+    SetFontSize 45
+    PlayAlertSound 12 300
+    MinimapIcon 0 Yellow Star
+    PlayEffect Yellow
+Show
+    HasSearingExarchImplicit >= 1
+    ItemLevel >= 84
+    SetBorderColor 0 0 0
+    SetBackgroundColor 250 225 0
+    SetTextColor 0 0 0
+    SetFontSize 40
+    PlayAlertSound 12 200
+    MinimapIcon 1 Yellow Star
+    PlayEffect Yellow
+Show
+    HasEaterOfWorldsImplicit >= 1
+    ItemLevel >= 84
+    SetBorderColor 0 0 0
+    SetBackgroundColor 250 225 0
+    SetTextColor 0 0 0
+    SetFontSize 40
+    PlayAlertSound 12 200
+    MinimapIcon 1 Yellow Star
+    PlayEffect Yellow
+Show
+    HasSearingExarchImplicit >= 1
+    ItemLevel < 84
+    SetBorderColor 250 225 0
+    SetBackgroundColor 0 0 0
+    SetTextColor 250 225 0
+    SetFontSize 40
+    PlayAlertSound 12 100
+    MinimapIcon 2 Yellow Star
+    PlayEffect Yellow
+Show
+    HasEaterOfWorldsImplicit >= 1
+    ItemLevel < 84
+    SetBorderColor 250 225 0
+    SetBackgroundColor 0 0 0
+    SetTextColor 250 225 0
+    SetFontSize 40
+    PlayAlertSound 12 100
+    MinimapIcon 2 Yellow Star
+    PlayEffect Yellow
+    
+    
 # Enchanted Items Section
 Show 
     AnyEnchantment True
