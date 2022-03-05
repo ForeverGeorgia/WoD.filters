@@ -18,55 +18,63 @@
 
 #   1 - A filter that only shows gear relevant to my guides.
 #   2 - A filter for everyone that's relevant for all builds.
-#     * My filters are available on all platforms. So make sure to follow the filter for the appropriate platform.
+#     * My filters are available on all platforms. So make sure you're following the right filter!
 
 # All of my filters only filter gear. So you will never miss any non-equippable item that drops.
 
-# Both filters are progressive. That means that instead of you choosing when you want your filter to get more strict, the filter chooses for you at predermined points in the game. So there are no alternate tiers to select with this filter. It's a "One-stop-shop".
+# Both filters are progressive. That means that the filter gets more strict as you progress through the game. You won't need to switch filters to meet your preferences. The filter does it for you. One filter. Nice. It's a "One-stop-shop".
 
 
 
 #--------------------------------------#
 #   The Basic Concept of the Filter:
 #--------------------------------------#
-
-#   End-Game:
-        # I want the end-game to show as little as possible without actually missing anything. (Don't we all.)
-            # Most items have natural replacements. 
-            # The end of campaign is To do this, I've decided to have all items that will eventually be hidden, show until (and including) T14s. (Obviously many items will start being hidden during the campaign.) So T15s, and especially T16s, will be really tidy.***
-        # Mapping will always bounce back and forth from T14s and above. So I have the filter setup to allow players to still get some of the drops they want without needing to backtrack to much lower maps. They'll still be able to do relevant map tiers to get the drops they want. So if you need some extra scrolls or scraps, change your mind on your utility flasks, or need an item's basetype more than its item level, you'll get what you need in T14s and then won't have to worry about them showing when you're back in T15+. It's not like we want to stay in T14s...but we have to do them on occasion anyway. I figured it was a good threshold.
+#   My Filters will become more strict the further you get into the game. 
+    #   While levelling (on your first playthrough) you'll want access to both specific basetypes and link combos. As time goes on, you'll obviously want to be more picky. Then you'll get to the stage where you're unlikely to replace your gear, but it's good to check anyway.
+    #   Here are SOME of the checkpoints the filter has as we progress through the game:
+        #   AreaLevel 10 - 2-linked items stop showing.
+        #   AreaLevel 25 - 3-linked items stop showing (unless they are one-handed items).
+        #   AreaLevel 34 - Magic Accessories show showing.
+        #   AreaLevel 68 - All levelling help stops. Only top items of each class show.
+        #   AreaLevel 82 - Only Top items with an ItemLevel 84+ show.
 #   Currency:
-        # I'm the type of player that likes to have all currency show. So it does, but it shouldn't be in the way. The visuals so only emphasize the items worth picking up, while the less important currency is less obvious. (Stacks values are required for common currencies.)
+    #   I'm the type of player that likes to have all currency show. So it does, but it shouldn't be in the way. The visuals so only emphasize the items worth picking up, while the less important currency is less obvious. (Stacks values are required for common currencies later in the game.)
 #   Gear:
-        # Outside of levelling exceptions or fancy items (Atlas Based drops, influenced items, etc.), ONLY THE BEST RARE ITEMS WILL SHOW FOR THE AREA LEVEL YOU'RE IN (based on a few factors).
-            # Examples:
-                # A Medium Life Flask starts dropping at area level 3. So the Small Life Flask will be hidden from area level 3 onwards.
-                # The Zodiac Leather is the Body Armour with the most Evasion in the game. It has the same implicit (none) as the Exquisite Leather body armour. As the Exquisite Leather has less Evasion than the Zodiac Leather, the Exquisite Leather will be hidden from area level 65 onwards (which is when the Zodiac Leather starts dropping.)
-                # The Taxing, Gruelling, and Debilitation Gauntlets share the same implicit. As the Armour and Implicit values increase based on basetype, they will be replaced accordingly. The Taxing Gauntlets start dropping at area level 10. They will being hidden starting at level 40 when the Gruelling Gauntlets become available. And the Gruelling are hidden at area level 70, when the Debilitation Gauntlets can begin dropping.
+    #   I love checking items but I hate having too many items to check. I've found that this setup is a great balance, no matter the content that GGG throws our way.
+    #   Outside of levelling exceptions or fancy items (Atlas Based drops, influenced items, etc.), items will be replaced with their natural successor. At the end, you'll only have one of each item that's the best of each statistical category or implicit, per class. Only the best Rare items will show for the AreaLevel you are in.
+        #   Examples:
+            #   A Medium Life Flask starts dropping at area level 3. So the Small Life Flask will be hidden from AreaLevel 3 onwards.
+            #   The Zodiac Leather is the Body Armour with the most Evasion in the game. It has the same implicit (none) as the Exquisite Leather body armour. As the Exquisite Leather has less Evasion than the Zodiac Leather, the Exquisite Leather will be hidden from area level 65 onwards (which is when the Zodiac Leather starts dropping.)
+            #   The Taxing, Gruelling, and Debilitation Gauntlets share the same implicit. As the Armour and Implicit values increase based on basetype, they will be replaced accordingly. The Taxing Gauntlets start dropping at area level 10. They will being hidden starting at level 40 when the Gruelling Gauntlets become available. And the Gruelling are hidden at area level 70, when the Debilitation Gauntlets can begin dropping.
 
 
 
 #-------------------------#
-#   SEARCH FOR DETAILS! - (I'm still updating the Table of Contents. It's missing Currency. All equippable items are done though.
+#   SEARCH FOR DETAILS!
 #-------------------------#
 
 # If you're curious about what the filter shows or hides, I've explained it (in normal English) within each relevant section.
 
 # To search within the filter:
-    # Click WITHIN the filter window (I don't think it works without a cursor), then copy and CTRL+F any of the following titles that have "section" in it. The following list isn't in the exact order of how the filter is organized, so it's best to just search for the item(s)' BaseType, Class, or with the "section(s)" listed here.
+    # Click WITHIN the filter window (I don't think it works without a cursor), then copy and CTRL+F any of the following titles. Feel free to seach for a specific basetype or class.
 
 
-    # Currency Thingies
-    
-
+    # Exceptions (6-links, Bitterdream, Unique Items, etc.)
+    # League and Newly Added Core Items
+    # Quest Items Section
+    # Currency Section
+    # Items that Work Like Currency (Fossils, Oils, Catalysts, Eseence, Etc.)
+    # Maps Section
+    # Items that Work Like Maps, or Enhance Them (Fragments, Splinters, Scarabs, etc.)
+    # Divination Card Section
     # Equippable Items Section
+        # Jewels Section
         # Fancy Gear Exceptions
-            # Corrupted Exception Section
-                # Talismans
-                # Breach Rings
+            # Talismans and Breach Rings Section
             # Influenced Items Section
+            # Eldritch Horror Implicits Section
             # Enchanted Items Section
-            # ID'd Core league Mods Section (Bestiary, Delve, etc.)
+            # ID'd Core league Mods Section (Bestiary, Betrayal, Delve, Incursion, Warbands...)
             # Synthesised items Section
             # Fractured Items Section
         # One Hand Weapons
@@ -74,10 +82,10 @@
             # Claws Section
             # One Hand Maces Section
             # Rune Daggers Section
-            # Daggers Section (out of alphabetical order for the sake of coding)
+            # Daggers Section
             # Sceptres Section
             # Thrusting One Hand Swords Section
-            # One Hand Swords Section (out of alphabetical order for the sake of coding)
+            # One Hand Swords Section
             # Wands Section
         # Two Hand Weapons
             # Two Hand Axes Section
@@ -87,8 +95,8 @@
             # Two Hand Swords Section
             # Warstaves Section
         # Offhand Support Items
-            # Quivers Section
             # Shields Section
+            # Quivers Section
         # Armour
             # Helmets Section
             # Body Armour Section
@@ -99,21 +107,22 @@
             # Rings Section
             # Belts Section
             # Heist Trinkets Section
-        # Heist Rogue Equipement Section
+        # Heist Rogue Equipment Section
+        # Minor Recipes Section
         # Levelling Exceptions Section
-    # Minor Recipes Section
-    # Gems Section
-    # Flasks Section
+        # Gems Section
+        # Flasks Section
 
 
 
-# K. Done.
+#   K. I'm done talking. The filter is below. Enjoy!
+#-----------------------------------------------------#
 
-#------------------------------------------------------------------#
-#Leeeeeeeeeeeeeets Begiiiiiiiiiiiiiiiiiiiiiiiiiinnnnnnnnnn!!!!!!!!!
-#------------------------------------------------------------------#
 
-#EXCEPTIONNNNNNNSSSSSSSSSSS
+
+#-----------------------------------------------------------#
+#   EXCEPTIONS (6-links, Bitterdream, Unique Items, etc.)
+#-----------------------------------------------------------#
 Show # 6-link Uniques
     LinkedSockets = 6
     Rarity Unique
@@ -213,7 +222,11 @@ Show # All Uniques
     PlayEffect Brown
 
 
-# NO CLUE/NEW ITEMS (to be allocated)
+
+#---------------------------------------#
+#   LEAGUE AND NEWLY ADDED CORE ITEMS
+#---------------------------------------#
+# (to be allocated next league)
 Show # (This is a duplicate to the above. It's just here as an example for myself for the future. The above Shadow Sceptre needs to be above the other unique drops. So please keep both instances.)
     Class "Sceptre"
     BaseType "Shadow Sceptre"
@@ -360,7 +373,9 @@ Show # Catch-All
 
 
 
-# QUEST ITEMS
+#-------------------------#
+#   QUEST ITEMS SECTION
+#-------------------------#
 Show # Size 45
     Class "Quest" "Atlas Upgrade Item"
     SetBorderColor 250 250 250
@@ -421,7 +436,9 @@ Show # Size 35
 
 
 
-# CURRENCY STASH TAB
+#----------------------#
+#   CURRENCY SECTION
+#----------------------#
 # Special Sounds
 Show
     Class "Stackable Currency"
@@ -551,7 +568,7 @@ Show
     PlayEffect Blue
 Show
     Class "Stackable Currency"
-    BaseType "Orb of Regret" "Orb of Scouring" "Cartographer's Chisel" "Bestiary Orb" "Rogue's Marker" "Enkindling Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Exotic Coinage" "Scrap Metal" "Astragali" "Burial Medallion" "Binding Shard" "Harbinger's Shard" 
+    BaseType "Orb of Regret" "Orb of Scouring" "Cartographer's Chisel" "Bestiary Orb" "Enkindling Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Exotic Coinage" "Scrap Metal" "Astragali" "Burial Medallion" "Binding Shard" "Harbinger's Shard" 
     SetBorderColor 250 250 250
     SetBackgroundColor 0 0 150
     SetTextColor 250 250 250
@@ -573,7 +590,7 @@ Show
 # Silent Singles
 Show 
     Class "Stackable Currency"
-    BaseType "Orb of Alteration" "Chromatic Orb" "Jeweller's Orb"
+    BaseType "Orb of Alteration" "Chromatic Orb" "Jeweller's Orb" "Rogue's Marker"
     SetBorderColor 0 0 150
     SetBackgroundColor 0 0 150
     SetTextColor 250 250 250
@@ -739,8 +756,11 @@ Show
     SetTextColor 250 250 250
     SetFontSize 39
 
-    
-# THE REST OF THE "GEAR" CURRENCY
+
+
+#-----------------------------------------------------------------------------#
+#   ITEMS THAT WORK LIKE CURRENCY (Fossils, Oils, Catalysts, Eseence, Etc.)    
+#-----------------------------------------------------------------------------#
 # Essences
 Show
     Class "Stackable Currency"
@@ -1091,6 +1111,10 @@ Show
     PlayEffect Cyan
     
 
+
+#------------------#
+#   MAPS SECTION
+#------------------#
 # MAP STASH TAB
 Show
     Class "Misc Map Item"
@@ -1099,16 +1123,6 @@ Show
     SetBackgroundColor 250 250 250
     SetTextColor 250 0 250
     SetFontSize 45
-    PlayAlertSound 16 300
-    MinimapIcon 0 Pink Circle
-    PlayEffect Pink
-Show 
-    Class "Expedition Logbook"
-    BaseType "Expedition Logbook"
-    SetBorderColor 0 0 0
-    SetBackgroundColor 250 0 250
-    SetTextColor 0 0 0
-    SetFontSize 40
     PlayAlertSound 16 300
     MinimapIcon 0 Pink Circle
     PlayEffect Pink
@@ -1274,7 +1288,10 @@ Show
     PlayEffect Pink
 
 
-# THE REST OF THE "MAP" CURRENCY 
+
+#--------------------------------------------------------------------------------------#
+#   ITEMS THAT WORK LIKE MAPS, OR ENHANCE THEM (Fragments, Splinters, Scarabs, etc.)
+#--------------------------------------------------------------------------------------#
 # Frag Tab
 Show # Atziri Fragments
     Class "Map Fragments"
@@ -1509,7 +1526,7 @@ Show # Divine Vessel
     PlayAlertSound 12 300
     MinimapIcon 0 Purple Circle
     PlayEffect Purple
-# Delirium
+# Delirium Stash Tab Section
 Show
     Class "Map Fragments"
     BaseType "Simulacrum"
@@ -1538,7 +1555,7 @@ Show
     PlayAlertSound 12 300
     MinimapIcon 2 Purple Circle
     PlayEffect Purple
-# Metamorph
+# Metamorph Stash Tab Section
 Show
     Class "Metamorph Sample"
     SetBorderColor 0 0 0
@@ -1548,9 +1565,19 @@ Show
     PlayAlertSound 12 300
     MinimapIcon 0 Purple Circle
     PlayEffect Purple
-# Heist
+# Expedition Mapping Section
 Show
-	Class  "Blueprint"
+    Class "Expedition Logbook"
+    SetBorderColor 0 0 0
+    SetBackgroundColor 150 0 150
+    SetTextColor 0 0 0
+    SetFontSize 40
+    PlayAlertSound 12 300
+    MinimapIcon 0 Purple Circle
+    PlayEffect Purple  
+# Heist Mapping Section
+Show
+    Class "Blueprint"
     SetBorderColor 0 0 0
     SetBackgroundColor 150 0 150
     SetTextColor 0 0 0
@@ -1567,7 +1594,7 @@ Show
     PlayAlertSound 12 300
     MinimapIcon 1 Purple Circle
     PlayEffect Purple
-# Ritual
+# Ritual Fragment Section
 Show 
 	Class "Map Fragment"
 	BaseType "Blood-filled Vessel"
@@ -1598,7 +1625,7 @@ Show # Ritual
     PlayAlertSound 12 300
     MinimapIcon 2 Purple Circle
     PlayEffect Purple
-# Lures
+# Lures Section
 Show
     Class "Map Fragments"
     BaseType "Craicic Lure" "Farric Lure" "Fenumal Lure" "Saqawine Lure"
@@ -1616,8 +1643,10 @@ Show
     MinimapIcon 1 Purple Circle
     PlayEffect Purple
     
-
-# DIVINATION STASH TAB
+    
+#-----------------------------#    
+#   DIVINATION CARD SECTION
+#-----------------------------#
 # My Order
 Show
     Class "Currency"
@@ -1667,8 +1696,33 @@ Show # "I May As Well Check" Div Cards - Catch All
     PlayEffect Grey
 
 
-# EQUIPABLE
-# Jewels
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+#------------------------------#
+#   EQUIPPABLE ITEMS SECTION
+#------------------------------#
+
+#--------------------#
+#   Jewels Section
+#--------------------#
 Show # Max ItemLevel
     Class Jewel
     BaseType "Cluster Jewel"
@@ -1723,48 +1777,6 @@ Show
     PlayEffect Yellow
 
 
-    
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-    
-    
-    
-    
-    
-    
-#------------------------------#
-#   EQUIPPABLE ITEMS SECTION
-#------------------------------#
-
-
 
 #---------------------------#
 #   FANCY GEAR EXCEPTIONS
@@ -1782,7 +1794,7 @@ Show
 
 
 
-# Corrupted Exception Section
+# Talismans and Breach Rings Section
 # Talismans
 Show 
     Class "Amulets"
@@ -1803,6 +1815,7 @@ Show
     SetBackgroundColor 0 0 0
     SetTextColor 150 0 0
     SetFontSize 30
+
 
 
 # Influenced Items Section
@@ -2057,8 +2070,7 @@ Show
 # ID'd Drops
 Show # Corrupted
     Class "One Hand Axes"
-	HasExplicitMod >=2 "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Devastating" "Malicious" "of Celebration" "of Liquefaction" "of Disintegrating"
-    Corrupted True
+	HasExplicitMod "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Devastating" "Malicious" "of Celebration" "of Exsanguination" "of Dissolution" 
     Rarity Rare
     SetBorderColor 150 0 0
     SetBackgroundColor 0 0 0
@@ -2069,7 +2081,7 @@ Show # Corrupted
     PlayEffect Red
 Show # Uncorrupted
     Class "One Hand Axes"
-    HasExplicitMod >=2 "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Devastating" "Malicious" "of Celebration" "of the Gladiator" "of Staggering"
+	HasExplicitMod "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Devastating" "Malicious" "of Celebration" "of Exsanguination" "of Dissolution" 
     SetBorderColor 250 225 0
     SetBackgroundColor 250 225 0
     SetTextColor 0 0 0
@@ -2077,6 +2089,9 @@ Show # Uncorrupted
     PlayAlertSoundPositional 12 150
     MinimapIcon 1 Yellow Kite
     PlayEffect Yellow
+Hide # Corrupted
+    Class "One Hand Axes"
+    Corrupted True
     
     
     
@@ -2356,7 +2371,7 @@ Show
 # ID'd Drops
 Show # Corrupted
     Class "Claws"
-	HasExplicitMod >=2 "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Devastating" "Malicious" "of Celebration" "of Liquefaction" "of Disintegrating"
+	HasExplicitMod "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Devastating" "Malicious" "of Celebration" "of Virulence" "of Dissolution" "of Disintegrating"
     Corrupted True
     Rarity Rare
     SetBorderColor 150 0 0
@@ -2368,7 +2383,7 @@ Show # Corrupted
     PlayEffect Red
 Show # Uncorrupted
     Class "Claws"
-    HasExplicitMod >=2 "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Devastating" "Malicious" "of Celebration" "of the Gladiator" "of Staggering"
+	HasExplicitMod "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Devastating" "Malicious" "of Celebration" "of Virulence" "of Dissolution" "of Disintegrating"
     SetBorderColor 250 225 0
     SetBackgroundColor 250 225 0
     SetTextColor 0 0 0
@@ -2376,6 +2391,9 @@ Show # Uncorrupted
     PlayAlertSoundPositional 12 150
     MinimapIcon 1 Yellow Kite
     PlayEffect Yellow
+Hide # Corrupted
+    Class "Claws"
+    Corrupted True
     
     
     
@@ -2637,7 +2655,7 @@ Show
 # ID'd Drops
 Show # Corrupted
     Class "One Hand Maces"
-	HasExplicitMod >=2 "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Devastating" "Malicious" "of Celebration" "of the Gladiator" "of Staggering"
+	HasExplicitMod "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Devastating" "Malicious" "of Celebration" "of the Gladiator" "of Staggering" "of Exsanguination" "of Dissolution"
     Corrupted True
     Rarity Rare
     SetBorderColor 150 0 0
@@ -2649,7 +2667,7 @@ Show # Corrupted
     PlayEffect Red
 Show # Uncorrupted
     Class "One Hand Maces"
-    HasExplicitMod >=2 "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Devastating" "Malicious" "of Celebration" "of the Gladiator" "of Staggering"
+	HasExplicitMod "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Devastating" "Malicious" "of Celebration" "of the Gladiator" "of Staggering" "of Exsanguination" "of Dissolution"
     SetBorderColor 250 225 0
     SetBackgroundColor 250 225 0
     SetTextColor 0 0 0
@@ -2657,6 +2675,9 @@ Show # Uncorrupted
     PlayAlertSoundPositional 12 150
     MinimapIcon 1 Yellow Kite
     PlayEffect Yellow
+Hide # Corrupted
+    Class "One Hand Maces"
+    Corrupted True
     
     
     
@@ -2692,7 +2713,7 @@ Show # < 84
     SetBackgroundColor 0 0 0
     SetTextColor 250 225 0
     SetFontSize 35
-    
+
     
 
 # Levelling
@@ -2927,7 +2948,7 @@ Show
 # ID'd Drops
 Show # Corrupted
     Class "Rune Daggers"
-	HasExplicitMod >=2 "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Runic" "Xoph's" "Tul's" "Esh's" "Devastating" "Magister's" "Flame Shaper's" "Frost Singer's" "Thunderhand's" "Lithomancer's" "Cremating" "Entombing" "Electrocuting" "Malicious" "of Finesse" "of Celebration" "of Ashes" "of Glaciation" "of Arcing" "of Conflagrating" "of Liquefaction" "of Heartstopping" "of Disintegrating"
+	HasExplicitMod "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Runic" "Xoph's" "Tul's" "Esh's" "Devastating" "Magister's" "Flame Shaper's" "Frost Singer's" "Thunderhand's" "Lithomancer's" "Cremating" "Entombing" "Electrocuting" "Malicious" "of Finesse" "of Celebration" "of Ashes" "of Glaciation" "of Arcing" "of Conflagrating" "of Virulence" "of Dissolution" "of Heartstopping" "of Disintegrating"
     Corrupted True
     Rarity Rare
     SetBorderColor 150 0 0
@@ -2939,7 +2960,7 @@ Show # Corrupted
     PlayEffect Red
 Show # Uncorrupted
     Class "Rune Daggers"
-    HasExplicitMod >=2 "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Runic" "Xoph's" "Tul's" "Esh's" "Devastating" "Magister's" "Flame Shaper's" "Frost Singer's" "Thunderhand's" "Lithomancer's" "Cremating" "Entombing" "Electrocuting" "Malicious" "of Finesse" "of Celebration" "of Ashes" "of Glaciation" "of Arcing" "of Conflagrating" "of Liquefaction" "of Heartstopping" "of Disintegrating"
+	HasExplicitMod "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Runic" "Xoph's" "Tul's" "Esh's" "Devastating" "Magister's" "Flame Shaper's" "Frost Singer's" "Thunderhand's" "Lithomancer's" "Cremating" "Entombing" "Electrocuting" "Malicious" "of Finesse" "of Celebration" "of Ashes" "of Glaciation" "of Arcing" "of Conflagrating" "of Virulence" "of Dissolution" "of Heartstopping" "of Disintegrating"
     SetBorderColor 250 225 0
     SetBackgroundColor 250 225 0
     SetTextColor 0 0 0
@@ -2947,6 +2968,9 @@ Show # Uncorrupted
     PlayAlertSoundPositional 12 150
     MinimapIcon 1 Yellow Kite
     PlayEffect Yellow
+Hide # Corrupted
+    Class "Rune Daggers"
+    Corrupted True
     
     
     
@@ -3127,7 +3151,7 @@ Show
 # ID'd Drops
 Show # Corrupted
     Class "Daggers"
-	HasExplicitMod >=2 "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Devastating" "Malicious" "of Celebration" "of Liquefaction" "of Disintegrating"
+	HasExplicitMod "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Devastating" "Malicious" "of Celebration" "of Dissolution" "of Disintegrating"
     Corrupted True
     Rarity Rare
     SetBorderColor 150 0 0
@@ -3139,7 +3163,7 @@ Show # Corrupted
     PlayEffect Red
 Show # Uncorrupted
     Class "Daggers"
-    HasExplicitMod >=2 "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Devastating" "Malicious" "of Celebration" "of the Gladiator" "of Staggering"
+	HasExplicitMod "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Devastating" "Malicious" "of Celebration" "of Dissolution" "of Disintegrating"
     SetBorderColor 250 225 0
     SetBackgroundColor 250 225 0
     SetTextColor 0 0 0
@@ -3147,6 +3171,9 @@ Show # Uncorrupted
     PlayAlertSoundPositional 12 150
     MinimapIcon 1 Yellow Kite
     PlayEffect Yellow
+Hide # Corrupted
+    Class "Daggers"
+    Corrupted True
     
     
     
@@ -3291,7 +3318,7 @@ Show
 # ID'd Drops
 Show # Corrupted
     Class "Sceptres"
-	HasExplicitMod >=2 "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Runic" "Xoph's" "Tul's" "Esh's" "Devastating" "Magister's" "Flame Shaper's" "Frost Singer's" "Thunderhand's" "Lithomancer's" "Cremating" "Entombing" "Electrocuting" "Malicious" "of Finesse" "of Celebration" "of Ashes" "of Glaciation" "of Arcing" "of Conflagrating" "of Liquefaction" "of Heartstopping" "of the Fanatical"
+	HasExplicitMod "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Runic" "Xoph's" "Tul's" "Esh's" "Devastating" "Magister's" "Flame Shaper's" "Frost Singer's" "Thunderhand's" "Lithomancer's" "Cremating" "Entombing" "Electrocuting" "Malicious" "of Finesse" "of Celebration" "of Ashes" "of Glaciation" "of Arcing" "of Conflagrating" "of Dissolution" "of Heartstopping" "of the Fanatical"
     Corrupted True
     Rarity Rare
     SetBorderColor 150 0 0
@@ -3303,7 +3330,7 @@ Show # Corrupted
     PlayEffect Red
 Show # Uncorrupted
     Class "Sceptres"
-    HasExplicitMod >=2 "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Runic" "Xoph's" "Tul's" "Esh's" "Devastating" "Magister's" "Flame Shaper's" "Frost Singer's" "Thunderhand's" "Lithomancer's" "Cremating" "Entombing" "Electrocuting" "Malicious" "of Finesse" "of Celebration" "of Ashes" "of Glaciation" "of Arcing" "of Conflagrating" "of Liquefaction" "of Heartstopping" "of the Fanatical"
+    HasExplicitMod "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Runic" "Xoph's" "Tul's" "Esh's" "Devastating" "Magister's" "Flame Shaper's" "Frost Singer's" "Thunderhand's" "Lithomancer's" "Cremating" "Entombing" "Electrocuting" "Malicious" "of Finesse" "of Celebration" "of Ashes" "of Glaciation" "of Arcing" "of Conflagrating" "of Dissolution" "of Heartstopping" "of the Fanatical"
     SetBorderColor 250 225 0
     SetBackgroundColor 250 225 0
     SetTextColor 0 0 0
@@ -3311,6 +3338,9 @@ Show # Uncorrupted
     PlayAlertSoundPositional 12 150
     MinimapIcon 1 Yellow Kite
     PlayEffect Yellow
+Hide # Corrupted
+    Class "Sceptres"
+    Corrupted True
     
     
     
@@ -3554,7 +3584,7 @@ Show
 # ID'd Drops
 Show # Corrupted
     Class "Thrusting One Hand Swords"
-	HasExplicitMod >=2 "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Devastating" "Malicious" "of Celebration"
+	HasExplicitMod "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Devastating" "Malicious" "of Celebration" "of Dissolution"
     Corrupted True
     Rarity Rare
     SetBorderColor 150 0 0
@@ -3566,7 +3596,7 @@ Show # Corrupted
     PlayEffect Red
 Show # Uncorrupted
     Class "Thrusting One Hand Swords"
-	HasExplicitMod >=2 "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Devastating" "Malicious" "of Celebration"
+	HasExplicitMod "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Devastating" "Malicious" "of Celebration" "of Dissolution"
     SetBorderColor 250 225 0
     SetBackgroundColor 250 225 0
     SetTextColor 0 0 0
@@ -3574,6 +3604,9 @@ Show # Uncorrupted
     PlayAlertSoundPositional 12 150
     MinimapIcon 1 Yellow Kite
     PlayEffect Yellow
+Hide # Corrupted
+    Class "Thrusting One Hand Swords"
+    Corrupted True
     
     
     
@@ -3802,7 +3835,7 @@ Show
     SetBackgroundColor 0 0 0
     SetTextColor 250 225 0
     SetFontSize 30
-    
+
     
     
 #-----------------------------#
@@ -3826,7 +3859,7 @@ Show
 # ID'd Drops
 Show # Corrupted
     Class "One Hand Swords"
-	HasExplicitMod >=2 "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Devastating" "Malicious" "of Celebration" "of Liquefaction"
+	HasExplicitMod "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Devastating" "Malicious" "of Celebration" "of Dissolution"
     Corrupted True
     Rarity Rare
     SetBorderColor 150 0 0
@@ -3838,7 +3871,7 @@ Show # Corrupted
     PlayEffect Red
 Show # Uncorrupted
     Class "One Hand Swords"
-	HasExplicitMod >=2 "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Devastating" "Malicious" "of Celebration" "of Liquefaction"
+	HasExplicitMod "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Devastating" "Malicious" "of Celebration" "of Dissolution"
     SetBorderColor 250 225 0
     SetBackgroundColor 250 225 0
     SetTextColor 0 0 0
@@ -3846,6 +3879,9 @@ Show # Uncorrupted
     PlayAlertSoundPositional 12 150
     MinimapIcon 1 Yellow Kite
     PlayEffect Yellow
+Hide # Corrupted
+    Class "One Hand Swords"
+    Corrupted True
     
     
     
@@ -4098,7 +4134,7 @@ Show
 # ID'd Drops
 Show # Corrupted
     Class "Wands"
-	HasExplicitMod >=2 "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Runic" "Xoph's" "Tul's" "Esh's"	"Empress's" "Devastating" "Magister's" "Flame Shaper's" "Frost Singer's" "Thunderhand's" "Mad Lord's" "Lithomancer's" "Martinet's" "Cremating" "Entombing" "Electrocuting" "Malicious" "of Finesse" "of Acclaim" "of Conflagrating" "of Liquefaction" "of Disintegrating" "of Heartstopping" "of the Fanatical" "of Exsanguinating" "of Infuriation" "of the Despot" "of Masterminding"
+	HasExplicitMod "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Runic" "Xoph's" "Tul's" "Esh's"	"Empress's" "Devastating" "Magister's" "Flame Shaper's" "Frost Singer's" "Thunderhand's" "Mad Lord's" "Lithomancer's" "Martinet's" "Cremating" "Entombing" "Electrocuting" "Malicious" "of Finesse" "of Acclaim" "of Conflagrating" "of Dissolution" "of Disintegrating" "of Heartstopping" "of the Fanatical" "of Exsanguinating" "of Infuriation" "of the Despot" "of Masterminding"
     Corrupted True
     Rarity Rare
     SetBorderColor 150 0 0
@@ -4110,7 +4146,7 @@ Show # Corrupted
     PlayEffect Red
 Show # Uncorrupted
     Class "Wands"
-	HasExplicitMod >=2 "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Runic" "Xoph's" "Tul's" "Esh's"	"Empress's" "Devastating" "Magister's" "Flame Shaper's" "Frost Singer's" "Thunderhand's" "Mad Lord's" "Lithomancer's" "Martinet's" "Cremating" "Entombing" "Electrocuting" "Malicious" "of Finesse" "of Acclaim" "of Conflagrating" "of Liquefaction" "of Disintegrating" "of Heartstopping" "of the Fanatical" "of Exsanguinating" "of Infuriation" "of the Despot" "of Masterminding"
+	HasExplicitMod "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Runic" "Xoph's" "Tul's" "Esh's"	"Empress's" "Devastating" "Magister's" "Flame Shaper's" "Frost Singer's" "Thunderhand's" "Mad Lord's" "Lithomancer's" "Martinet's" "Cremating" "Entombing" "Electrocuting" "Malicious" "of Finesse" "of Acclaim" "of Conflagrating" "of Dissolution" "of Disintegrating" "of Heartstopping" "of the Fanatical" "of Exsanguinating" "of Infuriation" "of the Despot" "of Masterminding"
     SetBorderColor 250 225 0
     SetBackgroundColor 250 225 0
     SetTextColor 0 0 0
@@ -4118,28 +4154,9 @@ Show # Uncorrupted
     PlayAlertSoundPositional 12 150
     MinimapIcon 1 Yellow Kite
     PlayEffect Yellow
-Show # Corrupted Minion Mods
+Hide # Corrupted
     Class "Wands"
-	HasExplicitMod >=1 "Empress's" "Magister's" "Flame Shaper's" "Frost Singer's" "Thunderhand's" "Mad Lord's" "Lithomancer's" "Martinet's" "of Infuriation" "of the Despot" "of Masterminding"
     Corrupted True
-    Rarity Rare
-    SetBorderColor 150 0 0
-    SetBackgroundColor 0 0 0
-    SetTextColor 150 0 0
-    SetFontSize 30
-    PlayAlertSoundPositional 12 150
-    MinimapIcon 1 Red Kite
-    PlayEffect Red
-Show # Uncorrupted Minion Mods
-    Class "Wands"
-	HasExplicitMod >=1 "Empress's" "Magister's" "Flame Shaper's" "Frost Singer's" "Thunderhand's" "Mad Lord's" "Lithomancer's" "Martinet's" "of Infuriation" "of the Despot" "of Masterminding"
-    SetBorderColor 250 225 0
-    SetBackgroundColor 250 225 0
-    SetTextColor 0 0 0
-    SetFontSize 40
-    PlayAlertSoundPositional 12 150
-    MinimapIcon 1 Yellow Kite
-    PlayEffect Yellow
     
     
 
@@ -11691,18 +11708,18 @@ Hide
 #---------------------------------#
 
 # Colours:
-    # Blue - 0 0 150
-    # Brown - 150 75 0
-    # Cyan - 0 250 250
-    # Green - 0 100 0
-    # Grey - 150 150 150
-    # Orange - 250 125 0
-    # Pink - 250 0 250
-    # Purple - 150 0 150
-    # Red - 150 0 0
-    # Yellow - 250 225 0
-    # White - 250 250 250
-    # Black - 0 0 0
+    # Blue - 0 0 150 (Currency)
+    # Brown - 150 75 0 (Uniques)
+    # Cyan - 0 250 250 (Items that work like Currency)
+    # Green - 0 100 0 (Quest items)
+    # Grey - 150 150 150 (Div. Cards)
+    # Orange - 250 125 0 (WTF/League items)
+    # Pink - 250 0 250 (Maps)
+    # Purple - 150 0 150 (Items that work like Maps)
+    # Red - 150 0 0 (Corrupted)
+    # Yellow - 250 225 0 (Equippable gear)
+    # White - 250 250 250 (Epic)
+    # Black - 0 0 0 (Nothing)
 
 # Sounds
     # 1 = Epic
