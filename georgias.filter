@@ -162,6 +162,25 @@ Show
     MinimapIcon 0 Cyan Cross
     PlayEffect Cyan
 
+Show
+    HasSearingExarchImplicit >= 1
+    SetBorderColor 250 225 0
+    SetBackgroundColor 0 0 0
+    SetTextColor 250 225 0
+    SetFontSize 20
+    PlayAlertSound 12 100
+    MinimapIcon 2 Yellow Star
+    PlayEffect Yellow
+Show
+    HasEaterOfWorldsImplicit >= 1
+    SetBorderColor 250 225 0
+    SetBackgroundColor 0 0 0
+    SetTextColor 250 225 0
+    SetFontSize 20
+    PlayAlertSound 12 100
+    MinimapIcon 2 Yellow Star
+    PlayEffect Yellow
+
 # QUEST ITEMS
 Show # Size 45
     Class "Quest" #"Atlas Region Upgrade Item"
