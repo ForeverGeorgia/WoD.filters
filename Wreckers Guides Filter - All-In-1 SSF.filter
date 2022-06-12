@@ -243,7 +243,7 @@ Show # (This is a duplicate to the above. It's just here as an example for mysel
 
 Show
     Class "Divination Card"
-    BaseType "Judging Voices" "Bijoux" "Silence and Frost" "Misery in Darkness" "The Tireless Extractor" "Justified Ambition" "Parasitic Passengers" "Duality" "The One That Got Away" "The Transformation" "Magnum Opus" "Imperfect Memories" "The Magma Crab"
+    BaseType == "Altered Perception" "Further Invention" "The Brawny Battle Mage" "A Fate Worse Than Death" "The Destination" "Rebirth and Renewal" "The Forward Gaze" "The Apothecary" "Home" "The Dungeon Master" "From Bone to Ashes" "Darker Half"
     SetBorderColor 250 125 0
     SetBackgroundColor 0 0 0
     SetTextColor 250 125 0
@@ -253,17 +253,7 @@ Show
     PlayEffect Orange
 Show
     Class "Stackable Currency"
-    BaseType "Tainted Exalted Orb" "Tainted Mythic Orb" "Exceptional Eldritch Ember" "Exceptional Eldritch Ichor" "Eldritch Exalted Orb" "Eldritch Orb of Annulment"
-    SetBorderColor 250 125 0
-    SetBackgroundColor 250 250 250
-    SetTextColor 250 125 0
-    SetFontSize 45
-    PlayAlertSound 1 300
-    MinimapIcon 0 Orange UpsideDownHouse
-    PlayEffect Orange
-Show
-    Class "Stackable Currency"
-    BaseType "Tainted Blessing" "Tainted Chaos Orb" "Tainted Divine Teardrop" "Charged Compass" "Surveyor's Compass" "Grand Eldritch Ember" "Grand Eldritch Ichor" "Orb of Conflict" "Eldritch Chaos Orb" "Scouting Report" "Oil Extractor"
+    BaseType "Power Core" "Recombinator"
     SetBorderColor 0 0 0
     SetBackgroundColor 250 125 0
     SetTextColor 0 0 0
@@ -272,48 +262,8 @@ Show
     MinimapIcon 0 Orange UpsideDownHouse
     PlayEffect Orange
 Show
-    Class "Stackable Currency"
-    BaseType "Tainted Chromatic Orb" "Tainted Orb of Fusing" "Tainted Jeweller's Orb" "Tainted Blacksmith's Whetstone" "Tainted Armourer's Scrap" "Greater Eldritch Ember" "Greater Eldritch Ichor"
-    SetBorderColor 250 125 0
-    SetBackgroundColor 0 0 0
-    SetTextColor 250 125 0
-    SetFontSize 35
-    PlayAlertSound 12 300
-    MinimapIcon 0 Orange UpsideDownHouse
-    PlayEffect Orange
-Show
-    Class "Stackable Currency"
-    BaseType "Lesser Eldritch Ember" "Lesser Eldritch Ichor"
-    SetBorderColor 0 0 0
-    SetBackgroundColor 0 0 0
-    SetTextColor 250 125 0
-    SetFontSize 35
-    PlayAlertSound 12 300
-    MinimapIcon 0 Orange UpsideDownHouse
-    PlayEffect Orange
-Show
-    Class "Map Fragment"
-    BaseType "Al-Hezmin's Crest" "Baran's Crest" "Drox's Crest" "Veritania's Crest"
-    SetBorderColor 250 125 0
-    SetBackgroundColor 250 250 250
-    SetTextColor 250 125 0
-    SetFontSize 45
-    PlayAlertSound 12 300
-    MinimapIcon 0 Orange UpsideDownHouse
-    PlayEffect Orange
-Show
-    Class "Misc Map Item"
-    BaseType "Maven's Invitation"
-    SetBorderColor 250 125 0
-    SetBackgroundColor 250 250 250
-    SetTextColor 250 125 0
-    SetFontSize 45
-    PlayAlertSound 1 300
-    MinimapIcon 0 Orange UpsideDownHouse
-    PlayEffect Orange
-Show
-    Class "Misc Map Item"
-    BaseType "Writhing Invitation" "Screaming Invitation" "Polaric Invitation" "Incandescent Invitation"
+    Class "Quest"
+    BaseType "Sentinel Controller"
     SetBorderColor 0 0 0
     SetBackgroundColor 250 125 0
     SetTextColor 0 0 0
@@ -321,55 +271,106 @@ Show
     PlayAlertSound 12 300
     MinimapIcon 0 Orange UpsideDownHouse
     PlayEffect Orange
-Show # Needs 4 (or Wealthy)
-    Class "Archnemesis Mod"
-    ArchnemesisMod "Opulent" "Innocence-touched" "Kitava-touched"
-    SetBorderColor 250 125 0
-    SetBackgroundColor 250 250 250
-    SetTextColor 250 125 0
-    SetFontSize 45
-    PlayAlertSound 1 300
-    MinimapIcon 0 White UpsideDownHouse
-    PlayEffect Orange  
-Show # Needs 3
-    Class "Archnemesis Mod"
-    ArchnemesisMod "Empowering Minions" "Trickster" "Temporal Bubble" "Treant Horde" "Soul Eater" "Evocationist" "Invulnerable" "Crystal-skinned" "Empowered Elements" "Effigy" "Lunaris-touched" "Solaris-touched" "Arakaali-touched" "Brine King-touched" "Tukohama-touched" "Abberath-touched" "Shakari-touched"
+Show
+    Class "Sentinel Drone"
+    BaseType "Rusted"
     SetBorderColor 0 0 0
-    SetBackgroundColor 250 125 0
-    SetTextColor 0 0 0
-    SetFontSize 45
+    SetBackgroundColor 0 0 0
+    SetTextColor 250 125 0
+    SetFontSize 36
     PlayAlertSound 12 300
     MinimapIcon 0 Orange UpsideDownHouse
-    PlayEffect Orange  
-Show # Needs 2
-    Class "Archnemesis Mod"
-    ArchnemesisMod "Heralding Minions" "Assassin" "Necromancer" "Rejuvenating" "Executioner" "Hexer" "Drought Bringer" "Entangler" "Frost Strider" "Ice Prison" "Flame Strider" "Corpse Detonator" "Magma Barrier" "Mirror Image" "Storm Strider" "Mana Siphoner" "Corrupter" 
+    PlayEffect Orange
+Show
+    Class "Sentinel Drone"
+    BaseType "Bronze"
+    SetBorderColor 0 0 0
+    SetBackgroundColor 0 0 0
+    SetTextColor 250 125 0
+    SetFontSize 37
+    PlayAlertSound 12 300
+    MinimapIcon 0 Orange UpsideDownHouse
+    PlayEffect Orange
+Show
+    Class "Sentinel Drone"
+    BaseType "Cobalt"
+    SetBorderColor 250 125 0
+    SetBackgroundColor 0 0 0
+    SetTextColor 250 125 0
+    SetFontSize 38
+    PlayAlertSound 12 300
+    MinimapIcon 0 Orange UpsideDownHouse
+    PlayEffect Orange
+Show
+    Class "Sentinel Drone"
+    BaseType "Brimstone"
+    SetBorderColor 250 125 0
+    SetBackgroundColor 0 0 0
+    SetTextColor 250 125 0
+    SetFontSize 39
+    PlayAlertSound 12 300
+    MinimapIcon 0 Orange UpsideDownHouse
+    PlayEffect Orange
+Show
+    Class "Sentinel Drone"
+    BaseType "Emberstone"
     SetBorderColor 250 125 0
     SetBackgroundColor 0 0 0
     SetTextColor 250 125 0
     SetFontSize 40
-    PlayAlertSound 12 200
+    PlayAlertSound 12 300
     MinimapIcon 0 Orange UpsideDownHouse
-    PlayEffect Orange  
-Show # Base
-    Class "Archnemesis Mod"
-    ArchnemesisMod "Toxic" "Chaosweaver" "Frostweaver" "Permafrost" "Hasted" "Deadeye" "Bombardier" "Flameweaver" "Incendiary" "Arcane Buffer" "Echoist" "Stormweaver" "Dynamo" "Bonebreaker" "Bloodletter" "Steel-infused" "Gargantuan" "Berserker" "Sentinel" "Juggernaut" "Vampiric" "Overcharged" "Soul Conduit" "Malediction" "Consecrator" "Frenzied"
-    SetBorderColor 0 0 0
+    PlayEffect Orange
+Show
+    Class "Sentinel Drone"
+    BaseType "Obsidian"
+    SetBorderColor 250 125 0
     SetBackgroundColor 0 0 0
     SetTextColor 250 125 0
-    SetFontSize 35
-    PlayAlertSound 12 100
-    MinimapIcon 1 Orange UpsideDownHouse
-    PlayEffect Orange  
-Show # Catch-All
-    Class "Archnemesis Mod"
-    SetBorderColor 250 250 250
-    SetBackgroundColor 0 0 0
+    SetFontSize 41
+    PlayAlertSound 12 300
+    MinimapIcon 0 Orange UpsideDownHouse
+    PlayEffect Orange
+Show
+    Class "Sentinel Drone"
+    BaseType "Cryptic"
+    SetBorderColor 0 0 0
+    SetBackgroundColor 250 125 0
+    SetTextColor 0 0 0
+    SetFontSize 42
+    PlayAlertSound 12 300
+    MinimapIcon 0 Orange UpsideDownHouse
+    PlayEffect Orange
+Show
+    Class "Sentinel Drone"
+    BaseType "Primeval"
+    SetBorderColor 0 0 0
+    SetBackgroundColor 250 125 0
+    SetTextColor 0 0 0
+    SetFontSize 43
+    PlayAlertSound 12 300
+    MinimapIcon 0 Orange UpsideDownHouse
+    PlayEffect Orange
+Show
+    Class "Sentinel Drone"
+    BaseType "Ancient"
+    SetBorderColor 250 125 0
+    SetBackgroundColor 250 250 250
+    SetTextColor 250 125 0
+    SetFontSize 44
+    PlayAlertSound 12 300
+    MinimapIcon 0 Orange UpsideDownHouse
+    PlayEffect Orange
+Show
+    Class "Sentinel Drone"
+    BaseType "Cosmic"
+    SetBorderColor 250 125 0
+    SetBackgroundColor 250 250 250
     SetTextColor 250 125 0
     SetFontSize 45
     PlayAlertSound 12 300
     MinimapIcon 0 Orange UpsideDownHouse
-    PlayEffect Orange   
+    PlayEffect Orange
 
 
 
@@ -406,7 +407,7 @@ Show # Size 40
     PlayEffect Green
 Show # Size 40
     Class "Misc Map Items"
-    BaseType "Maven's Invitation"
+    BaseType "Maven's Invitation" "Writhing Invitation" "Screaming Invitation" "Polaric Invitation" "Incandescent Invitation"
     SetBorderColor 250 250 250
     SetBackgroundColor 0 100 0
     SetTextColor 250 250 250
@@ -462,7 +463,7 @@ Show
     PlayEffect White
 Show
     Class "Stackable Currency"
-    BaseType "Exalted Orb" "Crusader's Exalted Orb" "Redeemer's Exalted Orb" "Hunter's Exalted Orb" "Warlord's Exalted Orb"
+    BaseType "Exalted Orb" "Crusader's Exalted Orb" "Redeemer's Exalted Orb" "Hunter's Exalted Orb" "Warlord's Exalted Orb" "Eldritch Exalted Orb"
     SetBorderColor 0 0 150
     SetBackgroundColor 250 250 250
     SetTextColor 0 0 150
@@ -470,18 +471,18 @@ Show
     PlayAlertSound ShExalted 300
     MinimapIcon 0 White Cross
     PlayEffect White
-Show
+Show # White Background "Orb of immense power"
     Class "Stackable Currency"
-    BaseType "Awakener's Orb" "Orb of Annulment" "Ancient Orb" "Orb of Dominance" "Facetor's Lens" "Prime Regrading Lens" "Secondary Regrading Lens" "Tempering Orb" "Tailoring Orb" "Orb of Unmaking" "Sacred Orb"
-    SetBorderColor 250 250 250
-    SetBackgroundColor 0 0 150
-    SetTextColor 250 250 250
+    BaseType "Awakener's Orb" "Ancient Orb" "Orb of Dominance" "Facetor's Lens" "Prime Regrading Lens" "Secondary Regrading Lens" "Tempering Orb" "Tailoring Orb" "Sacred Orb" "Orb of Annulment" "Eldritch Orb of Annulment" "Orb of Conflict"
+    SetBorderColor 0 0 150
+    SetBackgroundColor 250 250 250
+    SetTextColor 0 0 150
     SetFontSize 45
     PlayAlertSound ShGeneral 300
     MinimapIcon 0 Blue Cross
     PlayEffect Blue
 Show
-    BaseType "Chaos Orb" "Veiled Chaos Orb"
+    BaseType "Chaos Orb" "Veiled Chaos Orb" "Eldritch Chaos Orb"
     SetBorderColor 250 250 250
     SetBackgroundColor 0 0 150
     SetTextColor 250 250 250
@@ -548,7 +549,7 @@ Show
     PlayEffect White
 Show
     Class "Stackable Currency"
-    BaseType  "Elevated Sextant" "Orb of Binding" "Harbinger's Orb" "Infused Engineer's Orb" "Mirror Shard" "Exalted Shard" "Annulment Shard" "Ancient Shard" 
+    BaseType  "Elevated Sextant" "Orb of Binding" "Harbinger's Orb" "Infused Engineer's Orb" "Mirror Shard" "Exalted Shard" "Annulment Shard" "Ancient Shard" "Exceptional Eldritch Ember" "Exceptional Eldritch Ichor"
     SetBorderColor 250 250 250
     SetBackgroundColor 0 0 150
     SetTextColor 250 250 250
@@ -558,7 +559,7 @@ Show
     PlayEffect Blue
 Show
     Class "Stackable Currency"
-    BaseType "Awakened Sextant" "Instilling Orb" "Orb of Horizons" "Engineer's Orb" 
+    BaseType "Awakened Sextant" "Instilling Orb" "Orb of Horizons" "Engineer's Orb" "Orb of Unmaking" "Charged Compass" "Surveyor's Compass" "Grand Eldritch Ember" "Grand Eldritch Ichor" "Oil Extractor"
     SetBorderColor 250 250 250
     SetBackgroundColor 0 0 150
     SetTextColor 250 250 250
@@ -568,7 +569,7 @@ Show
     PlayEffect Blue
 Show
     Class "Stackable Currency"
-    BaseType "Orb of Regret" "Orb of Scouring" "Cartographer's Chisel" "Bestiary Orb" "Enkindling Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Exotic Coinage" "Scrap Metal" "Astragali" "Burial Medallion" "Binding Shard" "Harbinger's Shard" 
+    BaseType "Orb of Regret" "Orb of Scouring" "Cartographer's Chisel" "Bestiary Orb" "Enkindling Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Exotic Coinage" "Scrap Metal" "Astragali" "Burial Medallion" "Binding Shard" "Harbinger's Shard" "Scouting Report" "Greater Eldritch Ember" "Greater Eldritch Ichor"
     SetBorderColor 250 250 250
     SetBackgroundColor 0 0 150
     SetTextColor 250 250 250
@@ -578,7 +579,7 @@ Show
     PlayEffect Blue
 Show
     Class "Stackable Currency"
-    BaseType "Horizon Shard" "Engineer's Shard" 
+    BaseType "Horizon Shard" "Engineer's Shard" "Lesser Eldritch Ember" "Lesser Eldritch Ichor"
     SetBorderColor 250 250 250
     SetBackgroundColor 0 0 150
     SetTextColor 250 250 250
@@ -1340,9 +1341,9 @@ Show # Uber Elder Fragments
     PlayAlertSound 12 300
     MinimapIcon 0 Purple Circle
     PlayEffect Purple
-Show # Shaper & Elder Guardian Fragments
+Show # Guardian & Conqueror Fragments
     Class "Map Fragments"
-    BaseType "Fragment of the Phoenix" "Fragment of the Minotaur" "Fragment of the Chimera" "Fragment of the Hydra" "Fragment of Enslavement" "Fragment of Eradication" "Fragment of Constriction" "Fragment of Purification"
+    BaseType "Fragment of the Phoenix" "Fragment of the Minotaur" "Fragment of the Chimera" "Fragment of the Hydra" "Fragment of Enslavement" "Fragment of Eradication" "Fragment of Constriction" "Fragment of Purification" "Al-Hezmin's Crest" "Baran's Crest" "Drox's Crest" "Veritania's Crest"
     SetBorderColor 0 0 0
     SetBackgroundColor 150 0 150
     SetTextColor 0 0 0
@@ -1660,7 +1661,7 @@ Show
     PlayEffect Grey
 Show # "You've Got to be Kidding ME!!!" Div Cards
     Class "Divination Card"
-    BaseType == "A Familiar Call" "Abandoned Wealth" "Alluring Bounty" "Baited Expectations" "Brother's Stash" "Bowyer's Dream" "Chasing Risk" "Dark Dreams" "Dementophobia" "Desecrated Virtue" "Draped in Dreams" "House of Mirrors" "Immortal Resolve" "Imperial Legacy" "Nook's Crown" "The Awakened" "The Catch" "The Celestial Stone" "The Cheater" "The Dapper Prodigy" "The Demon" "The Doctor" "The Fiend" "The Fishmonger" "The Forgotten Treasure" "The Hale Heart" "The Hoarder" "The Immortal" "The Long Con" "The Nurse" "The Old Man" "The Sacrifice" "The Saint's Treasure" "The Samurai's Eye" "The Scout" "The Seeker" "The Sephirot" "The Undaunted" "The Valkyrie" "The White Knight" "Unrequited Love"
+    BaseType == "A Familiar Call" "Abandoned Wealth" "Alluring Bounty" "Baited Expectations" "Brother's Stash" "Bowyer's Dream" "Chasing Risk" "Dark Dreams" "Dementophobia" "Desecrated Virtue" "Draped in Dreams" "Duality" "House of Mirrors" "Immortal Resolve" "Imperial Legacy" "Nook's Crown" "The Awakened" "The Catch" "The Celestial Stone" "The Cheater" "The Dapper Prodigy" "The Demon" "The Doctor" "The Fiend" "The Fishmonger" "The Forgotten Treasure" "The Hale Heart" "The Hoarder" "The Immortal" "The Long Con" "The Nurse" "The Old Man" "The Sacrifice" "The Saint's Treasure" "The Samurai's Eye" "The Scout" "The Seeker" "The Sephirot" "The Undaunted" "The Valkyrie" "The White Knight" "Unrequited Love"
     SetBorderColor 150 150 150
     SetBackgroundColor 250 250 250
     SetTextColor 150 150 150
@@ -1670,7 +1671,7 @@ Show # "You've Got to be Kidding ME!!!" Div Cards
     PlayEffect White
 Show # "Absolutely!" Div Cards
     Class "Divination Card" 
-    BaseType == "A Modest Request" "A Sea of Blue" "Acclimatisation" "Akil's Prophecy" "Alone in the Darkness" "Ambitious Obsession" "Azyran's Reward" "Beauty Through Death" "Blessing of God" "Boon of the First Ones" "Broken Promises" "Brush, Paint and Palette" "Burning Blood" "Costly Curio" "Council of Cats" "Cursed Words" "Demigod's Wager" "Desperate Crusade" "Disdain" "Dying Light" "Emperor of Purity" "Emperor's Luck" "Eternal Bonds" "Fateful Meeting" "Gift of Asenath" "Guardian's Challenge" "Harmony of Souls" "Haunting Shadows" "Humility" "Hunter's Reward" "Keeper's Corruption" "Lachrymal Necrosis" "Last Hope" "Left to Fate" "Lingering Remnants" "Love Through Ice" "Lucky Connections" "Lucky Deck" "Luminous Trove" "Mawr Blaidd" "Monochrome" "More is Never Enough" "No Traces" "Peaceful Moments" "Perfection" "Prejudice" "Prometheus' Armoury" "Sambodhi's Vow" "Seven Years Bad Luck" "Society's Remorse" "Squandered Prosperity" "Succor of the Sinless" "Terrible Secret of Space" "The Academic" "The Army of Blood" "The Artist" "The Aspirant" "The Bargain" "The Bear Woman" "The Beast" "The Bitter Blossom" "The Breach" "The Cacophony" "The Card Sharp" "The Cartographer" "The Cataclysm" "The Celestial Justicar" "The Chains that Bind" "The Chosen" "The Dark Mage" "The Dragon's Heart" "The Dreamer" "The Easy Stroll" "The Eldritch Decay" "The Emptiness" "The Ethereal" "The Eye of Terror" "The Greatest Intentions" "The Heroic Shot" "The Hook" "The Innocent" "The Inventor" "The Iron Bard" "The Jester" "The Jeweller's Boon" "The King's Heart" "The Landing" "The Last One Standing" "The Long Watch" "The Mad King" "The Master" "The Messenger" "The Metalsmith's Gift" "The Obscured" "The Offering" "The Patient" "The Porcupine" "The Price of Prescience" "The Price of Protection" "The Primordial" "The Skeleton" "The Soul" "The Survivalist" "The Tinkerer's Table" "The Trial" "The Tyrant" "The Undisputed" "The Union" "The Valley of Steel Boxes" "The Void" "The Warlord" "The Web" "The Whiteout" "The Witch" "The Wolf's Legacy" "The World Eater" "The Wrath" "Three Faces in the Dark" "Three Voices" "Time-Lost Relic" "Treasure Hunter" "Triskaidekaphobia" "Underground Forest" "Vanity" "Vile Power" "Vinia's Token" "Volatile Power" "Wealth and Power" 
+    BaseType == "A Modest Request" "A Sea of Blue" "Acclimatisation" "Akil's Prophecy" "Alone in the Darkness" "Ambitious Obsession" "Azyran's Reward" "Beauty Through Death" "Bijoux" "Blessing of God" "Boon of the First Ones" "Broken Promises" "Brush, Paint and Palette" "Burning Blood" "Costly Curio" "Council of Cats" "Cursed Words" "Demigod's Wager" "Desperate Crusade" "Disdain" "Dying Light" "Emperor of Purity" "Emperor's Luck" "Eternal Bonds" "Fateful Meeting" "Gift of Asenath" "Guardian's Challenge" "Harmony of Souls" "Haunting Shadows" "Humility" "Hunter's Reward" "Imperfect Memories" "Justified Ambition" "Keeper's Corruption" "Lachrymal Necrosis" "Last Hope" "Left to Fate" "Lingering Remnants" "Love Through Ice" "Lucky Connections" "Lucky Deck" "Luminous Trove" "Magnum Opus" "Mawr Blaidd" "Monochrome" "More is Never Enough" "No Traces" "Parasitic Passengers" "Peaceful Moments" "Perfection" "Prejudice" "Prometheus' Armoury" "Sambodhi's Vow" "Seven Years Bad Luck" "Society's Remorse" "Squandered Prosperity" "Succor of the Sinless" "Terrible Secret of Space" "The Academic" "The Army of Blood" "The Artist" "The Aspirant" "The Bargain" "The Bear Woman" "The Beast" "The Bitter Blossom" "The Breach" "The Cacophony" "The Card Sharp" "The Cartographer" "The Cataclysm" "The Celestial Justicar" "The Chains that Bind" "The Chosen" "The Dark Mage" "The Dragon's Heart" "The Dreamer" "The Easy Stroll" "The Eldritch Decay" "The Emptiness" "The Ethereal" "The Eye of Terror" "The Greatest Intentions" "The Heroic Shot" "The Hook" "The Innocent" "The Inventor" "The Iron Bard" "The Jester" "The Jeweller's Boon" "The King's Heart" "The Landing" "The Last One Standing" "The Long Watch" "The Mad King" "The Magma Crab" "The Master" "The Messenger" "The Metalsmith's Gift" "The Obscured" "The Offering" "The Patient" "The Porcupine" "The Price of Prescience" "The Price of Protection" "The Primordial" "The Skeleton" "The Soul" "The Survivalist" "The Tinkerer's Table" "The Tireless Extractor" "The Trial" "The Tumbleweed" "The Tyrant" "The Undisputed" "The Union" "The Valley of Steel Boxes" "The Void" "The Warlord" "The Web" "The Whiteout" "The Witch" "The Wolf's Legacy" "The World Eater" "The Wrath" "Three Faces in the Dark" "Three Voices" "Time-Lost Relic" "Treasure Hunter" "Triskaidekaphobia" "Underground Forest" "Vanity" "Vile Power" "Vinia's Token" "Volatile Power" "Wealth and Power" 
     SetBorderColor 250 250 250
     SetBackgroundColor 150 150 150
     SetTextColor 250 250 250
@@ -1680,7 +1681,7 @@ Show # "Absolutely!" Div Cards
     PlayEffect Grey
 Show # "Don't Care if I Miss Them" Div Cards
     Class "Divination Card"
-    BaseType == "A Mother's Parting Gift" "Anarchy's Price" "Audacity" "Boundless Realms" "Cartographer's Delight" "Echoes of Love" "Forbidden Power" "Her Mask" "Lantador's Lost Love" "Prosperity" "Rain of Chaos" "Rain Tempter" "Struck by Lightning" "The Avenger" "The Bones" "The Carrion Crow" "The Conduit" "The Deceiver" "The Doppelganger" "The Gemcutter" "The Inoculated" "The King's Blade" "The Lover" "The Mercenary" "The Mountain" "The Price of Protection" "The Professor" "The Ruthless Ceinture" "The Sigil" "The Siren" "The Spoiled Prince" "The Surgeon" "The Tumbleweed" "The Twins" "Turn the Other Cheek"
+    BaseType == "A Mother's Parting Gift" "Anarchy's Price" "Audacity" "Boundless Realms" "Cartographer's Delight" "Echoes of Love" "Forbidden Power" "Her Mask" "Lantador's Lost Love" "Prosperity" "Rain of Chaos" "Rain Tempter" "Struck by Lightning" "The Avenger" "The Bones" "The Carrion Crow" "The Conduit" "The Deceiver" "The Doppelganger" "The Gemcutter" "The Inoculated" "The King's Blade" "The Lover" "The Mercenary" "The Mountain" "The Price of Protection" "The Professor" "The Ruthless Ceinture" "The Sigil" "The Siren" "The Spoiled Prince" "The Surgeon" "The Twins" "Turn the Other Cheek"
     SetBorderColor 0 0 0
     SetBackgroundColor 0 0 0
     SetTextColor 150 150 150
@@ -2157,7 +2158,7 @@ Show
 # ID'd Drops
 Show # Corrupted
     Class "Sceptres"
-	HasExplicitMod "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Runic" "Xoph's" "Tul's" "Esh's" "Devastating" "Magister's" "Flame Shaper's" "Frost Singer's" "Thunderhand's" "Lithomancer's" "Cremating" "Entombing" "Electrocuting" "Malicious" "of Finesse" "of Celebration" "of Ashes" "of Glaciation" "of Arcing" "of Conflagrating" "of Dissolution" "of Heartstopping" "of the Fanatical"
+	HasExplicitMod >=2 "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Runic" "Xoph's" "Tul's" "Esh's" "Devastating" "Magister's" "Flame Shaper's" "Frost Singer's" "Thunderhand's" "Lithomancer's" "Cremating" "Entombing" "Electrocuting" "Malicious" "of Finesse" "of Celebration" "of Ashes" "of Glaciation" "of Arcing" "of Conflagrating" "of Dissolution" "of Heartstopping" "of the Fanatical"
     Corrupted True
     Rarity Rare
     SetBorderColor 150 0 0
@@ -2170,6 +2171,7 @@ Show # Corrupted
 Show # Uncorrupted
     Class "Sceptres"
     HasExplicitMod "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Runic" "Xoph's" "Tul's" "Esh's" "Devastating" "Magister's" "Flame Shaper's" "Frost Singer's" "Thunderhand's" "Lithomancer's" "Cremating" "Entombing" "Electrocuting" "Malicious" "of Finesse" "of Celebration" "of Ashes" "of Glaciation" "of Arcing" "of Conflagrating" "of Dissolution" "of Heartstopping" "of the Fanatical"
+    Corrupted False
     SetBorderColor 250 225 0
     SetBackgroundColor 250 225 0
     SetTextColor 0 0 0
@@ -2423,7 +2425,7 @@ Show
 # ID'd Drops
 Show # Corrupted
     Class "Wands"
-	HasExplicitMod "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Runic" "Xoph's" "Tul's" "Esh's"	"Empress's" "Devastating" "Magister's" "Flame Shaper's" "Frost Singer's" "Thunderhand's" "Mad Lord's" "Lithomancer's" "Martinet's" "Cremating" "Entombing" "Electrocuting" "Malicious" "of Finesse" "of Acclaim" "of Conflagrating" "of Dissolution" "of Disintegrating" "of Heartstopping" "of the Fanatical" "of Exsanguinating" "of Infuriation" "of the Despot" "of Masterminding"
+	HasExplicitMod >=2 "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Runic" "Xoph's" "Tul's" "Esh's"	"Empress's" "Devastating" "Magister's" "Flame Shaper's" "Frost Singer's" "Thunderhand's" "Mad Lord's" "Lithomancer's" "Martinet's" "Cremating" "Entombing" "Electrocuting" "Malicious" "of Finesse" "of Acclaim" "of Conflagrating" "of Dissolution" "of Disintegrating" "of Heartstopping" "of the Fanatical" "of Exsanguinating" "of Infuriation" "of the Despot" "of Masterminding"
     Corrupted True
     Rarity Rare
     SetBorderColor 150 0 0
@@ -2436,6 +2438,7 @@ Show # Corrupted
 Show # Uncorrupted
     Class "Wands"
 	HasExplicitMod "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Runic" "Xoph's" "Tul's" "Esh's"	"Empress's" "Devastating" "Magister's" "Flame Shaper's" "Frost Singer's" "Thunderhand's" "Mad Lord's" "Lithomancer's" "Martinet's" "Cremating" "Entombing" "Electrocuting" "Malicious" "of Finesse" "of Acclaim" "of Conflagrating" "of Dissolution" "of Disintegrating" "of Heartstopping" "of the Fanatical" "of Exsanguinating" "of Infuriation" "of the Despot" "of Masterminding"
+	Corrupted False
     SetBorderColor 250 225 0
     SetBackgroundColor 250 225 0
     SetTextColor 0 0 0
@@ -2715,7 +2718,7 @@ Show
 # ID'd Drops
 Show # Corrupted
     Class "Staves"
-	HasExplicitMod "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Devastating" "Runic" "Xoph's" "Tul's" "Esh's" "Magister's" "Flame Shaper's" "Lava Conjurer's" "Frost Singer's" "Winter Beckoner's" "Thunderhand's" "Tempest Master's" "Mad Lord's" "Splintermind's" "Lithomancer's" "Tecton's" "Combatant's" "Weaponmaster's" "Cremating" "Entombing" "Electrocuting" "Malicious" "Paragon's" "Combatant's" "Weaponmaster's" "of Celebration" "of Finesse" "of Dissolution" "of Disintegrating" "of Heartstopping" "of the Fanatical" "of Exsanguinating"
+	HasExplicitMod >=2 "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Devastating" "Runic" "Xoph's" "Tul's" "Esh's" "Magister's" "Flame Shaper's" "Lava Conjurer's" "Frost Singer's" "Winter Beckoner's" "Thunderhand's" "Tempest Master's" "Mad Lord's" "Splintermind's" "Lithomancer's" "Tecton's" "Combatant's" "Weaponmaster's" "Cremating" "Entombing" "Electrocuting" "Malicious" "Paragon's" "Combatant's" "Weaponmaster's" "of Celebration" "of Finesse" "of Dissolution" "of Disintegrating" "of Heartstopping" "of the Fanatical" "of Exsanguinating"
     Corrupted True
     Rarity Rare
     SetBorderColor 150 0 0
@@ -2728,6 +2731,7 @@ Show # Corrupted
 Show # Uncorrupted
     Class "Staves"
 	HasExplicitMod "Merciless" "Flaring" "Carbonising" "Crystalising" "Vapourising" "Devastating" "Runic" "Xoph's" "Tul's" "Esh's" "Magister's" "Flame Shaper's" "Lava Conjurer's" "Frost Singer's" "Winter Beckoner's" "Thunderhand's" "Tempest Master's" "Mad Lord's" "Splintermind's" "Lithomancer's" "Tecton's" "Combatant's" "Weaponmaster's" "Cremating" "Entombing" "Electrocuting" "Malicious" "Paragon's" "Combatant's" "Weaponmaster's" "of Celebration" "of Finesse" "of Dissolution" "of Disintegrating" "of Heartstopping" "of the Fanatical" "of Exsanguinating"
+	Corrupted False
     SetBorderColor 250 225 0
     SetBackgroundColor 250 225 0
     SetTextColor 0 0 0
@@ -2911,7 +2915,7 @@ Show
 # ID'd Drops
 Show # Corrupted
     Class Shields
-	HasExplicitMod "Vigorous" "of Tzteosh" "of Haast" "of Ephij" "of Bameth" "of the Span" "of the Molten Core" "of the Solar Storm" "of the Tundra" "of the Mammoth" "of Shockproofing" "of the Lightning Rod" "of Concord" "of Harmony" "of the Sempiternal" "of the Deathless"
+	HasExplicitMod >=2 "Vigorous" "of Tzteosh" "of Haast" "of Ephij" "of Bameth" "of the Span" "of the Molten Core" "of the Solar Storm" "of the Tundra" "of the Mammoth" "of Shockproofing" "of the Lightning Rod" "of Concord" "of Harmony" "of the Sempiternal" "of the Deathless"
     Corrupted True
     Rarity Rare
     SetBorderColor 150 0 0
@@ -2924,6 +2928,7 @@ Show # Corrupted
 Show # Uncorrupted
     Class Shields
 	HasExplicitMod "Vigorous" "of Tzteosh" "of Haast" "of Ephij" "of Bameth" "of the Span" "of the Molten Core" "of the Solar Storm" "of the Tundra" "of the Mammoth" "of Shockproofing" "of the Lightning Rod" "of Concord" "of Harmony" "of the Sempiternal" "of the Deathless"
+	Corrupted False
     SetBorderColor 250 225 0
     SetBackgroundColor 250 225 0
     SetTextColor 0 0 0
@@ -3296,7 +3301,7 @@ Show
 # ID'd Drops
 Show # Corrupted
     Class Helmets
-	HasExplicitMod "Fecund" "Summoner's" "Necromancer's" "of Tzteosh" "of Haast" "of Ephij" "of Bameth"
+	HasExplicitMod >=2 "Fecund" "Summoner's" "Necromancer's" "of Tzteosh" "of Haast" "of Ephij" "of Bameth"
     Corrupted True
     Rarity Rare
     SetBorderColor 150 0 0
@@ -3309,6 +3314,7 @@ Show # Corrupted
 Show # Uncorrupted
     Class Helmets
 	HasExplicitMod "Fecund" "Summoner's" "Necromancer's" "of Tzteosh" "of Haast" "of Ephij" "of Bameth"
+	Corrupted False
     SetBorderColor 250 225 0
     SetBackgroundColor 250 225 0
     SetTextColor 0 0 0
@@ -3587,7 +3593,7 @@ Show
 # ID'd Drops
 Show # Corrupted
     Class "Body Armours"
-	HasExplicitMod "Vigorous" "Rapturous" "Prime" "of Tzteosh" "of Haast" "of Ephij" "of Bameth" "of the Conservator"
+	HasExplicitMod >=2 "Vigorous" "Rapturous" "Prime" "of Tzteosh" "of Haast" "of Ephij" "of Bameth" "of the Conservator"
     Corrupted True
     Rarity Rare
     SetBorderColor 150 0 0
@@ -3600,6 +3606,7 @@ Show # Corrupted
 Show # Uncorrupted
     Class "Body Armours"
 	HasExplicitMod "Vigorous" "Rapturous" "Prime" "of Tzteosh" "of Haast" "of Ephij" "of Bameth" "of the Conservator"
+	Corrupted False
     SetBorderColor 250 225 0
     SetBackgroundColor 250 225 0
     SetTextColor 0 0 0
@@ -3824,7 +3831,7 @@ Show
 # ID'd Drops
 Show # Corrupted
     Class Gloves
-	HasExplicitMod "Athlete's" "of Tzteosh" "of Haast" "of Ephij" "of Bameth"
+	HasExplicitMod >=2 "Athlete's" "of Tzteosh" "of Haast" "of Ephij" "of Bameth"
     Corrupted True
     Rarity Rare
     SetBorderColor 150 0 0
@@ -3837,6 +3844,7 @@ Show # Corrupted
 Show # Uncorrupted
     Class Gloves
 	HasExplicitMod "Athlete's" "of Tzteosh" "of Haast" "of Ephij" "of Bameth"
+	Corrupted False
     SetBorderColor 250 225 0
     SetBackgroundColor 250 225 0
     SetTextColor 0 0 0
@@ -4091,7 +4099,7 @@ Show
 # ID'd Drops
 Show # Corrupted
     Class Boots
-	HasExplicitMod "Athlete's" "Hellion's" "Chosen" "of Tzteosh" "of Haast" "of Ephij" "of Bameth"
+	HasExplicitMod >=2 "Athlete's" "Hellion's" "Chosen" "of Tzteosh" "of Haast" "of Ephij" "of Bameth"
     Corrupted True
     Rarity Rare
     SetBorderColor 150 0 0
@@ -4104,6 +4112,7 @@ Show # Corrupted
 Show # Uncorrupted
     Class Boots
 	HasExplicitMod "Athlete's" "Hellion's" "Chosen" "of Tzteosh" "of Haast" "of Ephij" "of Bameth"
+	Corrupted False
     SetBorderColor 250 225 0
     SetBackgroundColor 250 225 0
     SetTextColor 0 0 0
@@ -4557,7 +4566,7 @@ Show
 # ID'd Drops
 Show # Corrupted, 2 mods
     Class Amulets
-	HasExplicitMod "Athlete's" "Exalter's" "Vulcanist's" "Rimedweller's" "Stormbrewer's" "Behemoth's" "Provocateur's"	"of Tzteosh" "of Haast" "of Ephij" "of Bameth" "of the Span"
+	HasExplicitMod >=2 "Athlete's" "Exalter's" "Vulcanist's" "Rimedweller's" "Stormbrewer's" "Behemoth's" "Provocateur's"	"of Tzteosh" "of Haast" "of Ephij" "of Bameth" "of the Span"
     Corrupted True
     Rarity Rare
     SetBorderColor 150 0 0
@@ -4570,6 +4579,7 @@ Show # Corrupted, 2 mods
 Show # Uncorrupted, 2 mods
     Class Amulets
 	HasExplicitMod "Athlete's" "Exalter's" "Vulcanist's" "Rimedweller's" "Stormbrewer's" "Behemoth's" "Provocateur's"	"of Tzteosh" "of Haast" "of Ephij" "of Bameth" "of the Span"
+	Corrupted False
     SetBorderColor 250 225 0
     SetBackgroundColor 250 225 0
     SetTextColor 0 0 0
@@ -4724,7 +4734,7 @@ Show
 # ID'd Drops
 Show # Corrupted
     Class Rings
-	HasExplicitMod "Virile" "of Tzteosh" "of Haast" "of Ephij" "of Bameth" "of the Rainbow"
+	HasExplicitMod >=2 "Virile" "of Tzteosh" "of Haast" "of Ephij" "of Bameth" "of the Rainbow"
     Corrupted True
     Rarity Rare
     SetBorderColor 150 0 0
@@ -4737,6 +4747,7 @@ Show # Corrupted
 Show # Uncorrupted
     Class Rings
 	HasExplicitMod "Virile" "of Tzteosh" "of Haast" "of Ephij" "of Bameth" "of the Rainbow"
+	Corrupted False
     SetBorderColor 250 225 0
     SetBackgroundColor 250 225 0
     SetTextColor 0 0 0
@@ -4882,7 +4893,7 @@ Show
 # ID'd Drops
 Show # Corrupted
     Class "Belts"
-	HasExplicitMod "Fecund" "of Tzteosh" "of Haast" "of Ephij" "of Bameth"
+	HasExplicitMod >=2 "Fecund" "of Tzteosh" "of Haast" "of Ephij" "of Bameth"
     Corrupted True
     Rarity Rare
     SetBorderColor 150 0 0
@@ -4895,6 +4906,7 @@ Show # Corrupted
 Show # Uncorrupted
     Class "Belts"
 	HasExplicitMod "Fecund" "of Tzteosh" "of Haast" "of Ephij" "of Bameth"
+	Corrupted False
     SetBorderColor 250 225 0
     SetBackgroundColor 250 225 0
     SetTextColor 0 0 0
