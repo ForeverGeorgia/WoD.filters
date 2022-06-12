@@ -128,6 +128,111 @@ Show
     MinimapIcon 0 Orange UpsideDownHouse
     PlayEffect Orange
 
+#New League 3.18
+Show
+    Class "Stackable Currency"
+    BaseType "Power Core" "Recombinator"
+    SetBorderColor 0 0 0
+    SetBackgroundColor 250 125 0
+    SetTextColor 0 0 0
+    SetFontSize 40
+    PlayAlertSound 12 300
+    MinimapIcon 0 Orange UpsideDownHouse
+    PlayEffect Orange
+Show
+    Class "Quest"
+    BaseType "Sentinel Controller"
+    SetBorderColor 0 0 0
+    SetBackgroundColor 250 125 0
+    SetTextColor 0 0 0
+    SetFontSize 40
+    PlayAlertSound 12 300
+    MinimapIcon 0 Orange UpsideDownHouse
+    PlayEffect Orange
+
+
+
+Show
+    Class "Sentinel Drone"
+    BaseType "Rusted" "Cobalt" "Bronze"
+    SetBorderColor 0 0 0
+    SetBackgroundColor 0 0 0
+    SetTextColor 250 125 0
+    SetFontSize 22
+    PlayAlertSound 12 300
+    MinimapIcon 0 Orange UpsideDownHouse
+    PlayEffect Orange
+Show
+    Class "Sentinel Drone"
+    BaseType "Brimstone"
+    SetBorderColor 250 125 0
+    SetBackgroundColor 0 0 0
+    SetTextColor 250 125 0
+    SetFontSize 39
+    PlayAlertSound 12 300
+    MinimapIcon 0 Orange UpsideDownHouse
+    PlayEffect Orange
+Show
+    Class "Sentinel Drone"
+    BaseType "Emberstone"
+    SetBorderColor 250 125 0
+    SetBackgroundColor 0 0 0
+    SetTextColor 250 125 0
+    SetFontSize 40
+    PlayAlertSound 12 300
+    MinimapIcon 0 Orange UpsideDownHouse
+    PlayEffect Orange
+Show
+    Class "Sentinel Drone"
+    BaseType "Obsidian"
+    SetBorderColor 250 125 0
+    SetBackgroundColor 0 0 0
+    SetTextColor 250 125 0
+    SetFontSize 41
+    PlayAlertSound 12 300
+    MinimapIcon 0 Orange UpsideDownHouse
+    PlayEffect Orange
+Show
+    Class "Sentinel Drone"
+    BaseType "Cryptic"
+    SetBorderColor 0 0 0
+    SetBackgroundColor 250 125 0
+    SetTextColor 0 0 0
+    SetFontSize 42
+    PlayAlertSound 12 300
+    MinimapIcon 0 Orange UpsideDownHouse
+    PlayEffect Orange
+Show
+    Class "Sentinel Drone"
+    BaseType "Primeval"
+    SetBorderColor 0 0 0
+    SetBackgroundColor 250 125 0
+    SetTextColor 0 0 0
+    SetFontSize 43
+    PlayAlertSound 12 300
+    MinimapIcon 0 Orange UpsideDownHouse
+    PlayEffect Orange
+Show
+    Class "Sentinel Drone"
+    BaseType "Ancient"
+    SetBorderColor 250 125 0
+    SetBackgroundColor 250 250 250
+    SetTextColor 250 125 0
+    SetFontSize 44
+    PlayAlertSound 12 300
+    MinimapIcon 0 Orange UpsideDownHouse
+    PlayEffect Orange
+Show
+    Class "Sentinel Drone"
+    BaseType "Cosmic"
+    SetBorderColor 250 125 0
+    SetBackgroundColor 250 250 250
+    SetTextColor 250 125 0
+    SetFontSize 45
+    PlayAlertSound 12 300
+    MinimapIcon 0 Orange UpsideDownHouse
+    PlayEffect Orange
+
 
 # New League 3.17
 #  Show
