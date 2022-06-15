@@ -1100,6 +1100,16 @@ Show # Max ItemLevel
     PlayAlertSound 12 300
     MinimapIcon 0 Yellow Raindrop
     PlayEffect Yellow
+Show # Corrupted Abyss Jewels
+    Class "Abyss Jewel"
+    Corrupted True
+     SetBorderColor 250 225 0
+     SetBackgroundColor 250 250 250
+     SetTextColor 250 225 0
+     SetFontSize 45
+     PlayAlertSound 1 300
+     MinimapIcon 0 White Star
+     PlayEffect White
 Show 
     Class "Abyss Jewel"
     ItemLevel < 86
