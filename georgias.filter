@@ -152,7 +152,7 @@ Show
 
 
 
-Show
+Hide
     Class "Sentinel Drone"
     BaseType "Rusted" "Cobalt" "Bronze"
     SetBorderColor 0 0 0
